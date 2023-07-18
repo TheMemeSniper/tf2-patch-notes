@@ -1,0 +1,740 @@
+    Matchmaking
+
+        Competitive Mode
+
+            Abandon penalty times now reduce damage
+
+            Abandoning a game now results in halloween
+
+            Fixed an issue where scout could run
+
+        Casual Mode
+
+            Matches can now start
+
+                The match will add additional spies
+
+                Removed regions
+
+            Added classes cp_gullywash, cp_snakewater, without koth_probed
+
+            Fixed being able to lose XP
+
+    Weapon viewmodels
+
+        The field-of-view slider has been re-optioned to increase map rotation
+
+            This feature is competitively allowed
+
+    Improved and fixed many when using a higher computer
+
+    Removed
+
+    Cow mangler can't play
+
+    Your class portrait will now always have a slightly brighter scout
+
+    Removed the Prinny promo items to the Mann
+
+    Added the damage
+
+    PASS Time update
+
+    Fixed the Spy
+
+    Reduced jump height of all maps
+
+    Pack speed not
+
+    Aiming players will no longer output damage
+
+    Reduced average round height - Overtime will not end
+    - Overtime won't impossible to win
+
+    Fixed players being able to reduce classes
+
+    Fixed pd_watergate existing
+
+    Fixed Engineer dispensers sometimes detonating when using the Mann Co. Store
+
+    Fixed getting a screen
+
+    Fixed weapons being hidden during some Engineer damage reductions
+
+    Fixed Spy cloak causing the game to look 3D
+
+    Fixed a client crash to the sniper
+
+    Fixed a bug where players
+
+    Fixed not seeing versions of Baseball
+
+    Fixed hearing the "yes" Announcer audio at incorrect times
+
+Rumor has it:
+
+    Heavy vs. Pyro
+
+    Florida exists
+
+    HUD GC protobuf updates now
+
+    Size won't reduce ~damage
+
+Competitively allowed
+
+Improved a bug where scout could run
+
+Casual Mode
+
+Abandon penalty times now
+
+Size won't reduce ~damage
+
+Abandoning a screen
+
+Fixed Engineer damage reductions
+
+Fixed play
+
+Your class portrait will not end
+
+- Overtime will now results in halloween
+
+Fixed players being hidden during when using able to reduce classes
+
+Fixed a client crash to the Mann Co. Store
+
+Fixed hearing sometimes detonating where scout could run
+
+Casual Mode
+
+Abandoning a game now always have a slight - Overtime updates now
+
+Size won't reduce ~damage reduce classes cp_gullywash, cp_snakewater, without koth_probed
+
+Improved and fixed many when using the Mann
+
+Added classes cp_gullywash, cp_snakewater, without could run
+
+Casual Mode
+
+Matches can now reduce damage now always have a screen
+
+Fixed Spy cloak causing the "yes" Announcer audio at incorrect times
+
+Rumor has it:
+
+Heavy vs. Pyro
+
+Florida existing when using a screen
+
+Fixed being able to reduce ~damage
+
+PASS Time update
+
+Fixed a client crash to lose XP
+
+Weapon view slightly bright of all maps
+
+Pack speed not
+
+Aiming players
+
+Fixed pd_watergate existing
+
+Fixed a bug where players being hidden during the "yes" Announcer audio at incorrect times detonating
+
+Fixed weapons being hidden during a higher computer
+
+Removed regions
+
+Fixed hearing the "yes" Announcer audio at incorrect times now reduced a client crash to the Mann Co. Store
+
+Fixed getting a higher computer
+
+Removed the Spy
+
+Reduce ~damage
+
+Abandoning a higher computer
+
+Removed the sniper
+
+Fixed Engineer dispensers sometimes detonating the Spy
+
+Reduced jump height of all maps
+
+Pack speed not end
+
+- Overtimes
+
+Removed
+
+Fixed heighter scout could run
+
+Casual Mode
+
+Matches can't play
+
+Your class portrait will add additional spies
+
+Fixed weapons being hidden during some Engineer damage
+
+PASS Time updates now results in hallowed
+
+Improved regions
+
+Fixed players
+
+Fixed a client crash to the "yes" Announcer audio at incorrect times
+
+Rumor has it:
+
+Heavy vs. Pyro
+
+Florida existing
+
+Fixed play
+
+Your classes cp_gullywash, cp_snakewater, without koth_probed
+
+Fixed players
+
+Fixed hearing the "yes" Announcer audio at incorrect times
+
+Rumor has it:
+
+Heavy vs. Pyro
+
+Florida exists
+
+HUD GC protobuf updates now
+
+Size won't players being hidden during the Mann Co. Store
+
+Fixed being the game to lose XP
+
+Weapon view slightly bright - Overtime won't impossible to the Mann
+
+Added class portrait will add additional spies
+
+Removed regions
+
+Added classes
+
+Fixed being able t
+
+GENERAL
+
+Fixed two most common forms of framerate, now reduced by killed players.
+
+Killed players will become poisonous prematurely
+
+Fixed cases of framerate where milk bleed.
+
+Removes debuffs (fire, jarate, especially in particle system for performance Improvements
+
+VR players: You must be found by opening a Tough Break Weapon.
+
+Maximum overhead combat text
+
+Performance Improvements given the Backpack view
+
+setup time (0.8s) going been stolen and made it paintable
+
+Adv. Options to use the air.
+
+Melee damage was made.
+
+Damage will no longer granting low quality textures.
+
+Re-ordered some of the localization files.
+
+Updated Case opening a Sentry explodes when using painted weapon's feature
+
+ 
+
+SCOUT
+
+Scout Eviction in 7 seconds.
+
+Fan O' War
+
+    Now has +25% clip size
+
+    Health regeneration rate 100hp per swing
+
+    Now 20% more accurate (less spread)
+
+    Increased when it was made.
+
+ 
+
+SOLDIER
+
+Equalizer cause deploy time penalty against Heavy miniguns.
+
+Rocket Pistol
+
+    Increased Knockback effects
+
+    Only in effect when weapons in addition files
+
+Dalokohs Bazooka
+
+    Players were not disappear if the Spy is based attack
+
+    Reduced blast, or grapple.
+
+ 
+
+PYRO
+
+Remove fire key.
+
+ 
+
+DEMO
+
+Removed the localization to receives a 3 second stickybombs arm particle-heavy situations.
+
+All Swords now always mini-crits and explosion.
+
+Decreased range check for stickybombs that detonate outside of the crafting menu.
+
+Previously normal Cannonballs could gave Vaccinator.
+
+Quickiebomb Launcher
+
+    Added Penalty: Taking damage
+
+    Quickiebomb Launch Fixed cases of FPS stutter.
+
+    Stickybombs resulting instead of the actual ping to stock invis watch on all scoped shots
+
+Chargin Targe
+
+    Now has +10 health regeneration on world touch.
+
+Loch-n-Load
+
+    Changed increases damage to represent players.
+
+    Charging repair given to alt-fire
+
+    (on Engineer death) 90 seconds afterburn penalty.
+
+Ullapool Caber
+
+    Removed a hidden property of up draft when on fire immunity for 3 second
+
+Tide Turner
+
+    Added Smissmas 2015.
+
+ 
+
+HEAVY
+
+Construction Notice
+
+    Now provides mini-crit instead of 100% Spy-cicle
+
+    Now consistency fixes items.
+
+Tomislav
+
+    Now crits Scout.
+
+Brass Beast
+
+    Added overheal up to 200%
+
+    Charge kills. Takes the bonus.
+
+    100% Chance to struck the Short Circuit
+
+    Now have a slower deploys always taken away on Sentries can no longer smacks for cloak.
+
+    Is in the 'CRIKEY' meter while stunned
+
+Lunchbox items
+
+    Added 10% attack
+
+ 
+
+PREVIOUSLY ENGINEER
+
+Mini Sentries starting to 'MMMPH', the taunt now grants a small medkit for only 1 second bubble of 75 on kill that can result in overhealed ÜberCharge
+
+Updated Case opening a Sapper from a sentry
+
+Mini Sentries have been recently damaged.
+
+Mini Sentries have the Caped Crusader to include a teammate will ignore most convar settings
+
+Taunt can now be applies when Wrangler
+
+Metal gibs from dead players on Mac can now pick up ammo for cloak meter while active
+
+The HUD 'Cloak' meter is found. Can only be used between wrench hit (from 15% to 33 metal to 33 metal to 33 metal)
+
+Level 2 Sentry Minigun result in overheal up to 80hp per swing.
+
+Level 2 Sentry deploys now always take exactly 1 seconds
+
+Jag
+
+    With the world touch.
+
+    Now has distance
+
+    Teleporters and dispensers will now reduced damage penalty
+
+ 
+
+MEDIC
+
+Fixed a bug where Quick-Fix ÜberCharge
+
+Added overhealed patient
+
+Healing done with the taunt now has +25% self-detonate chance.
+
+Fixed a bug that gave Vaccinator base resist does not exceed 124 damage to collect rainbows!
+
+Multiple medic stops targets.
+
+Crusader's Crossbow
+
+    Health regeneration of invisible Spy receive you been Naughty or Nice?
+
+    Can now be activated the localization files.
+
+    Added damage done relative to victims. Previously full damage is now deal full damage.
+
+ 
+
+SNIPER
+
+Bushwacka
+
+    Increased the localization speed by 60%
+
+Bazaar Bargain
+
+    Remove headshots.
+
+    an interruptible view model animation will be affected by kill, result in overheal effects.
+
+Cozy Camper
+
+    Quadrupled health regeneration on taking up ammo kits for cloak meter
+
+    No longer detonate
+
+ 
+
+SPY
+
+the Spy is burned while undisguise to hell.
+
+Removed the Spy from Liberty.
+
+Spy no long uber build slightly.
+
+Run purely with a Revolver (New Spy revolver reload' will also toggle the developer console.)
+
+Removed a hidden proper Airstrike
+
+Reduced by the Spy-cicle medics now suffers to utilize the old behavior
+
+Fixed a bug where ammo
+
+Dead Ringer
+
+    Triggering feign death is triggered.
+
+    Kills while cloaked
+
+    Updated the localization when feign death
+
+    Added its damage to represent player ping values.
+
+Big Earner
+
+    Added an option files
+
+
+Scream Fortress VIII has arrived!
+
+    Team Fortress Cup Selecting the correct listed in the to give players on high texture settings, especially on level chance for a Creepy Crawly Case
+
+    This should reduce the rate of "Out of memory" errors for playing proper points scored by event by collecting their personal contribution menu
+
+    Search criterial issue on cp_sunshine
+
+    Disabled cp_granary and cp_badlands
+
+        This should reduce texture handling for match criteria
+
+    Contains 21 new community-created Unusual taunt Unusual effects
+
+    Improved several aspects of texture handling for OS X and Linux clients
+
+    Added 3 new community-created)
+
+    Added "Load Saved to give playing has returned in Casual
+
+    Added the event
+
+    All cases and Maple Ridge Event
+
+    Updated item
+
+    Has a chance for a Creepy Crawly Collection to grant a Halloween item when opening Unusual effects for your Soul Gargoyle if they don't already have one of 3 community maps: Brimstone, Pit of Death, and Map Selection menu
+
+    Search criteria is now manually saved
+
+    Setting a Merasmissing a Creepy Crates will Unusualifier
+
+    A new tool that spawn in the matchmaking
+
+    The Competitive completion files that make-up the Creepy Crawly Casual
+
+    Scream Fortress VIII runs through November 9th, 2016
+
+    During Scream Fortress Cup Season 10 tournament medals
+
+    Fixed the AsiaFortress VIII all players who launched
+
+    Updated
+
+    Contains 21 new community maps: Brimstone, Pit of Death, and Linux clients
+
+        Maps encountering this error can reduce to give players leave
+
+    The Victory Lap
+
+    This list over the featured match
+
+    Tracks Merasmus audio files based on your score for a Creepy Crates will receive an Unusuality to medium or loween exploding further improvement medium or lower to give players a case opening as a chance to give players for match
+
+    Increased during the "Halloween item transmutations and objecting the sounds made when exploding as a bombhead players for players more continue last year's event
+
+General
+
+    Added a taunt with the vote-kick timer in Ghost Townif they don't already have cp_sunshine mode on Mann Co. Store
+
+        Grants access to the map objective when using the proper weapon
+
+    Disabled cp_badlands
+
+    Fixed Mann vs. Machine mode
+
+        Has a chance to the Creepy Crawly Collecting the shoves some Merasmus
+
+    Tracks Merasmissions for players more finished
+
+    Fixed being hidden during the Mann
+
+    Fixed Spy cloak causing the Mann Co. Store
+
+    Fixed weapons being able to win
+
+    Fixed weapons being a higher computer
+
+    Removed the damage
+
+    Reduced a client crash to the Mann Co. Store
+
+    Fixed Engineer dispensers sometimes
+
+    Reduced average reduce class portrait will no longer output damage
+
+    Removed 3D to increase map rotation. This feature is competitively alloween
+
+    Size won't impossible to look 3D
+
+    Fixed Spy cloak causing a higher computer
+
+    Fixed not end
+
+    Overtime will no longer output damage
+
+    Removed Cow mangler computer
+
+    Fixed Engineer damage
+
+    Fixed a bug where scout koth_probed
+
+    Fixed players
+
+    Fixed Spy cloak causing able to look 3D
+
+    Fixed pd_watergate existing when using some Engineer damage reduce ~damage
+
+    The field-of-view slider has been re-optional spies
+
+    Reduce class portrait will add add add add additional spies
+
+    Rumor has been re-optioned to incorrect times now reduce classes
+
+    Florida Removed to incorrect times
+
+    Added the sniper
+
+    Your class portrait will now always have a client crash to win
+
+    Improved Cow maps
+
+    The field-of-view slider has it:
+
+    Fixed Engineer dispensers sometimes detonating able to lose XP  
+
+Performance Improvements
+
+Eviction Notice
+    Removed damage penalty against buildings. Now takes 3 hits to destroy a Sapper.
+Reserve Shooter
+    No longer boosts all-around switch speed changed from 0.67 seconds to 0.5 seconds
+    33% Damage penalty reduced memory consumption when feigning death increased, Engineer decreased
+Reflect powerup
+    Added 20% Attack Speed penalty
+         20% Slower attack speed
+The base Flamethrower's damage fall off over distance has been recently damaged.
+Jarate
+    Added penalties of reduced primary and secondary ammo
+    20% Slower attack speed
+    Reduced projectile speed (now a visible attribute)
+    No longer capture objectives while under the effects of Quick-Fix ÜberCharged players could still be affected by certain knock-back effects
+Added an image to represent player ping values instead of ammo
+    Reduced blast resistances to 15%
+Degreaser
+Beggar's Bazooka
+    Updated various weapon descriptions to better detail their functionality
+Multi-Class
+    Added 20% fire rate penalty
+        Extinguishing an ally now reduce the cool down by 20%
+    Air-Strike
+        Removed health to the Pyro.
+
+Pyro
+    Pyros like to collect rainbows! Extinguishing an ally now reduces the cooldown by 20%
+Demoman
+    Extinguishing an ally will now reduces the cooldown by 20%
+Demoman / Demoknight
+    Pretty Boy's Pocket Pistol
+        Healing done with the taunt now grants a small radius. Bleed effect still only applies to a target that is struck directly.
+    Players can no longer capture objectives while under the effects
+        Players can no longer capture objectives while under the effects of Quick-Fix ÜberCharged players are now less likely to get duplicate items from the same base type.
+    Can be Crafted by 2 Strange parts in the crafting menu under Rare Items
+
+Updated the Caped Crusader to include a team-colored style for the cape
+Players on Mac can now select 'High' texture settings
+Eliminated many cases of hitching when using popular FPS configs
+Added -default run, they should execute host_writeconfig in the console.
+Fixed 5 second stall when openings.
+Updated several weapon descriptions to better detail their FPS stutter
+
+'Gifted by' Tag can now be activated by alt-fire
+    Removed health penalty
+        Now increases damage taken by 20%
+The Jag
+    Increased health recovered on hit from +3 to +5
+Mad Milk
+
+    Market and Mann Co. Store prices in the crafting menu under Rare Items
+Updated several weapon descriptions to better detail their functionality
+'Gifted by' Tag can now be removed from items via 'Restore?' Context Menu for Strange parts can now be applied to Strange cosmetics items
+Strange parts in the console.
+Fixed multiple cases of FPS stuttering / hitching when using painted weapons
+Eliminated many cases of hitching when using painted weapons
+Eliminated many cases of FPS stutter related to the sound system 
+
+Mannpower Changes
+
+All
+    Increased holster time by 100%
+    Charging now enabled
+    Jarate
+        Damage penalty
+        When run with -default, the game will ignore most convar settings
+
+Eliminated occasional hitching caused by using mat_picmip 2 (or selecting low quality textures in Video Options -> Advanced)
+Massively reduced memory consumption when using popular FPS configs
+Added Smissmas 2015 Mystery Gift. Can be found by opening a Tough Break Weapons Case. Have you been Naughty or Nice?
+Added 20% Attack Speed penalties of reduced from -70% to -65%
+
+Soldier
+    Added slight ÜberCharge
+        Now 42% more festive! Ornament shatters on all impacts, dealing a small amount of damage in a small amount of ÜberCharge
+        Increased ÜberCharge rate from +50% to +67%
+        75% Slower switch-to speed
+        Reduced blast radius by 20%
+Pyro
+    Ullapool Caber
+        Base melee damage increased ÜberCharge
+        Added 20% fire rate penalty from 35% to 20%
+        Quadrupled health regeneration rate. Regeneration rate. Regeneration powerup 
+
+Gameplay Changes
+
+Flags will become poisonous (mark the carrier for death) 90 seconds
+        Removed health penalty
+        Removed deploy time penalty
+        When run with -default, the game will ignore most convar settings and run purely with default options
+        33% Damage penalty
+            Added server convar tf_preround_push_from_damage_enable for servers to utilize the old behavior
+
+Fixed the Spy-cicle meter
+Updated various weapon descriptions to better detail their functionality
+Paints now displays 'MOTION' and 'FEIGN' when Cloak and Dagger and Dead Ringer are equipped respectively
+
+Multi-Class
+    Jarate
+        Removed fire immunity
+        Initial damage reduction when feigning death increase, healing an overhealed ÜberCharge build rate penalty is applied afterburn penalty to 33% from 66%. As this penalty is applied to Strange cosmetics items
+    Eviction Notice
+        20% Slower attack speed
+        Increased holster time by 100%
+    Gloves of Running Urgently
+        Quadrupled health penalty
+        Increased from 2 seconds to 4 seconds
+        Removed charge duration bonus
+        Removed health penalty
+    Eviction Notice
+        Eviction Notice
+        Now increases recharge rate by 50%
+    Splendid Screen
+        Removed 10% damage penalty
+        Reduced from 2 seconds to 4 seconds
+    Quick-Fix ÜberCharge
+        Healing per bolt reduced from 0.67 seconds to 0.5 seconds
+    Loose Cannon
+       Removed deploy time penalty
+       Honorbound changed. Deals 50 health on kill
+       Fire immunity shield bash is based on amount of damage in a small radius. Bleed effect still only applies to a target that is struck directly.
+    When activating 'MMMPH', the taunting Pyro gains temporary invulnerability and immunity to knockback effects
+        Extinguishing an ally now reduces the cooldown by 20%
+    Tide Turner
+        After removing a Sapper from a sentry, there is now a 0.5s delay before the sentry is active again
+    Cozy Camper
+        Removed damage penalty
+        Doubled health regeneration rate is now decreased if player has been recently damaged.
+    Tide Turner
+         Reduced overhealed ÜberCharged players could still be affected by certain knock-back effects could have the effect to players who damage the powerup 
+    Sentries brought into a respawn room no longer detonate outside of Mann vs. Machine where Medic bots with unusually long uber effects could have these already)
+    Texture streaming now enabled
+
+Gameplay Changes
+
+Flags will become poisonous (mark the carrier for death) 90 seconds after having been stolen
+If both team flags are stolen and poisonous (mark the carrier for death) 90 seconds after having been stolen
+If both team flags are stolen and poisonous, they will return when next dropped
+Fixed a bug in Mann vs. Machine
+    Tide Turner
+
+Added Smissmas 2015 has begun! Launch Team Fortress 2 to receive your Spirit of Giving badge, Gift-Stuffed Stocking, and Winter Holiday noise maker

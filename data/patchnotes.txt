@@ -1,0 +1,1261 @@
+
+    Fixed a crash when opening the achievement dialog
+    Fixed a bug where custom replacement materials in a map could persist to other maps
+    Fixed a bug where some particles were not the using correct particle types on clients
+    Fixed EmitSoundEx not using the correct sound name
+    Fixed the Strange Filter prefix for vsh_tinyrock
+    Fixed missing sounds and animation blends for the Taunt: Teufort Tango
+    Fixed the equip_region for The Shrapnel Shell
+    Updated vsh_skirmish to fix an issue where some props would disappear when viewed at certain angles
+    Updated pl_phoenix
+        Fixed missing materials
+        Fixed various physics props obstructing the payload cart
+    Updated vsh_nucleus
+        Fixed an exploit that allowed players to build out of bounds
+        Added decals to ammo pack locations throughout the map
+
+
+    Fixed a client crash related to audio and the new taunts
+    Fixed Red being able to enter the Blu spawn room on pl_cashworks
+    Fixed a transparency issue with the Hard Carry Unusual effect
+    Fixed missing contributor for vsh_distillery
+    Fixed spelling for the Taunt: Teufort Tango 
+
+Summer 2023!
+
+    Featuring 14 new community maps: Sharkbay, Rotunda, Phoenix, Cashworks, Venice, Reckoner, Sulfur, Hardwood, Pelican Peak, Selbyen, VSH Tiny Rock, VSH Distillery, VSH Skirmish, and VSH Nucleus
+    Added the Summer 2023 Cosmetic Case
+        Contains 25 new community-contributed items
+    Added 6 new community-contributed taunts to the Mann Co. Store
+        Taunt: Killer Joke
+        Taunt: Star-Spangled Strategy
+        Taunt: The Head Doctor
+        Taunt: Tuefort Tango
+        Taunt: The Road Rager
+        Taunt: The Killer Signature
+    Added 20 new community-created Unusual effects
+        12 new effects for Unusual hats
+        8 new effects for Unusual taunts
+    Added the Summer 2023 War Paint Case
+        Contains 10 new community-created War Paints that make-up the Summer 2023 Collection
+        Has a chance to give a taunt Unusualifier as a bonus item
+    All cosmetic and taunt cases will grant Summer 2023 Unusual effects instead of their normal Unusual effects during the Summer event. This does not include crates.
+    The Summer event runs through September 15th, 2023 
+
+General
+
+    Security and stability improvements
+    Fixed the Mann vs. Machine upgrade panel closing after receiving a matchmaking party invite
+    Fixed an exploit related to the ConTracker and being able to move/shoot while it's deployed
+    Fixed the Strange Count Transfer Tool not being able to transfer stats for Sandvich items
+    Fixed the Engineer not being able to move for a short period of time after doing The High Five taunt
+    Fixed missing No Headphones style for the Universal Translator
+    Fixed Engineer teleporter audio that was referencing the dispenser by mistake in Spanish
+    Fixed incorrect alpha channels for the Smissmas 2021/2022 Cosmetic Case models
+    Fixed the Winter 2019 War Paint Case not being shown in the Mann Co. Store
+    Updated/Added some tournament medals
+    Updated pl_enclosure_final to fix localization issues
+    Updated cp_gravelpit_snowy
+        Boosted volume of snowman explosions
+        Added occluders to C to improve performance
+        Improved clipping
+    Updated cp_steel
+        Prop collision cleanup and improved player clipping
+        Explosive splash bug collisions on stairs, props, etc., around the map
+        Spawn point issues (collision, prop blocking, clipping, etc.)
+        Fix Pyro door exploit on A
+        Fix choke and spam issues into Blu & Red spawns
+        Fix Pixel walk collision issues
+        Fixing ceiling clipping and stuck spots including exploits
+        Clean up geometry in spawns, the spawn locations and their exits
+        Fix roof readability issues, with sticky and rocket jumping
+        Fix rare double death bug when falling into pit
+        Fix Cliff stuck spots and ledges in E pit
+        Removed head glitch tele spawn on A-B connector
+        Fix rare overtime cap bug
+        Fix Red team getting stuck in spawn door to A
+    Updated cp_mossrock
+        Fixed numerous perch points
+        Fixed players being able to get under Blu spawn
+        Fixed a location where a teleporter could be build out of the map
+        Fixed collision on rock near final point so it is more accurate to the visuals
+        Fixed lots of small visual bugs
+        Fixed some small exploits
+        Improved optimisation
+
+Fixed an exploit related to using The Snack Attack to block the movement of other entities
+
+
+    Security and stability improvements
+    Added check to not set Marked-for-Death when mixing Mannpower and Player Destruction (community request)
+    Added a check to prevent td_buyback audio spam after the round has started
+    Fixed grapple movement slowing players when mixing Mannpower and Player Destruction. Only team leaders will receive a grapple movement penalty. (community request)
+    Fixed missing localization string in the recipe for the Tide Turner
+    Fixed self-illumination effect for the High Roller's Rocket Launcher and the High Roller's Medi Gun (community fix from makaroffilya)
+    Updated the crocodile model to fix a twisted ankle
+    Updated pl_enclosure_final to fix an exploit that allowed players to get out of bounds 
+
+Added missing Summer tag for Workshop maps 
+
+
+    Added check to URLLabel to prevent invalid URLs
+    Added new Workshop tags for Summer, Player Destruction, and Community Fix
+    Added check to ensure bullet effects are not duplicated (community fix from mastercoms)
+    Deleted some unused Steam API queries to improve client perf (community fix from mastercoms)
+    Fixed exploit related to using the td_buyback command during Mann vs. Machine matches
+    Fixed Stat Clock cancelling out ÜberCharge and self-illuminating materials on weapons using War Paints (community fix from makaroffilya)
+    Fixed not seeing the correct inspect image for the Red Rock Roscoe after previewing another paintkit item
+    Fixed missing/incorrect style strings for a few items
+    Reverted the previous change to the equip_region for the Cranial Cowl
+    Updated cp_gravelpit_snowy to adjust clipping throughout the map 
+
+
+    Fixed a memory leak when firing syringes as Medic
+    Fixed some instances of syringes being invisible around corners and in transitions between water and air (both directions)
+    Fixed syringes triggering false hits on the client when minimal view models are enabled or a custom view model FOV is set
+    Fixed The Original using the default reload sound instead of the intended sound
+    Fixed entities being considered static props after long server times
+        Fixed Mann vs. Machine bots failing to spawn
+        Fixed rockets occasionally being solid
+    Updated the equip_region settings for The Onimann and the Cranial Cowl
+    Updated cp_frostwatch
+        Fixed being able to stand in the cliff wall near control point 2 in stage 1
+    Expanded VScript support
+        Fixed .nut files being valid files for download/upload
+        Fixed clients being able to run certain script_* debug commands on the server
+        Added EmitSoundEx
+        Fixed crashes related to null strings being passed to functions
+        Exposed a MaxClients function to get the current value of maxplayers
+        Fixed clearing script hooks on level transition
+
+Updated the Taunt: The Boiling Point and Taunt: The Table Tantrum items to add missing voice lines when flipping the table
+Updated the Taunt: Roasty Toasty to add missing marshmallow ignite sound
+Updated pl_rumford_event
+
+    Adjusted occluders
+    Added some hints
+    Reduced unneeded props
+    Adjusted area portals
+    Minor deforestation
+
+Updated cp_frostwatch
+
+    Stage 2
+        Added spawn camp prevention/covers (both A and B paths)
+        Added another Snowmann
+        Removed mine carts in A flank
+        Reduced length of metal gate in the middle court
+        Increased cap time from 16 to 20
+    Stage 3
+        Added spawn camp prevention/covers
+        Added another Snowmann
+        Enhanced the snow pile in the water trench
+        Added another way to get out of the trench
+        Increased Point 1 doorway length 
+        Removed a sightline with RED spawn
+
+
+    Fixed Particulate Protector not using the BLU team skin
+    Fixed Huntsman registering headshots when arrows go through other entities
+    Fixed Oktoberfester's third style using the smoke effect
+    Fixed missing smoke effect for The Salty Dog's second style
+    Updated Tainted Frost unusual effect to fix a problem with the material
+    Updated Colonel Kringle to fix some clipping and alignment issues
+    Updated Taunt: Tailored Terminal to fix a problem with the briefcase materials
+    Updated Taunt: Russian Rubdown to fix some sounds being clipped
+    Updated Taunt: Roasty Toasty
+        Fixed some sounds clipping the Pyro's lines
+        Fixed some missing particles
+        Fixed a stutter in the animation loop
+    Updated pl_rumford_event
+        Fixed missing materials/models
+        Fixed duplicate lights on the rope entities
+    Updated cp_gravelpit_snowy
+        Fixed a client crash caused by failing to decode MP3 files
+        Fixed snow displacements poking through the roof
+        Fixed bullet holes poking through soft snow
+        Fixed snowman bombs not respawning properly
+        Minor clipping improvements
+        Removed the Observer
+
+Fixed a server crash related to the Spy sapping buildings
+Fixed the Battle Bear not using the correct skin for team BLU
+Fixed a materials problem with the Taunt: Tailored Terminal
+Fixed missing sounds and smoothed the loop point for the Taunt: Roasty Toasty
+Updated ctf_frosty to fix various exploits
+Updated pl_rumford_event to fix missing models/materials
+Updated pl_frostcliff
+
+    Fixed sticky bombs from getting attached to the front of the payload cart
+    Fixed some window props from hovering
+    Fixed displacement crack in uphill near A
+    Fixed few misaligned textures
+    Fixed players from staying stuck few seconds in old respawn after spawns change
+    Fixed players from getting stuck between cart and geometry near last pit
+    Increased RED team spawn time slightly after BLU captures 2nd point
+    Decreased doorway size near BLU 2nd spawn area
+    Improved lighting in doorway near capture point D
+    Improved clipping within map
+
+Updated cp_gravelpit_snowy
+
+    Improved clipping
+    Added missing color correction data
+    Adjusted BLU spawn to light better and tweak some clipping
+    Adjusted intensity and hue of lighting in various places for better readability
+    Fixed soundscape transition bugs
+    Reduced temperature by 3 degrees
+
+Updated VScript
+
+    Updated HLTV placeholder player to not be a valid script entity. This fixes some scripts failing on dedicated servers because the HLTV placeholder player isn't accounted for
+
+
+    Updated the Festive Rack to fix missing paintable attribute
+    Updated Musical Maelstrom, Verdant Virtuoso, and Silver Serenade effects to fix max particle count
+    Updated pl_rumford_event to fix missing materials/models
+    Updated cp_frostwatch
+        Fixed being able to build on one of the roofs in stage 2
+        Fixed a door going through the floor in stage 3
+    Updated cp_gravelpit_snowy
+        Improved clipping
+        Fixed various perch spots
+        Decreased fog intensity
+        Removed unused particle system entities
+        Fixed a few floating trees
+        Adjusted vertical positions of snowman bombs
+        Adjusted lighting on metal sheets in blue spawn
+        Fireplaces will now light arrows
+        Added more func_dustmotes
+        Fixed some visible z-fighting
+        Minor detailing additions and adjustments
+    VScript support changes
+        Fixed lag compensation when friendly fire is enabled
+        Added better support for meshing player upgrades
+            Added GrantOrRemoveAllUpgrades method
+            Exposed currency UI when upgrades are enabled
+            Exposed upgrade history on the player when playing without a population manager
+
+Happy Smissmas 2022!
+
+    All players who play TF2 during the event will receive a Stuffed Stocking as a gift! Stockings contain goodies for good little Mercenaries.
+    Featuring 5 new community maps: Frostwatch, Frostcliff, Rumford, Frosty, and Coal Pit
+    Added the Winter 2022 Cosmetic Case
+        Contains 23 new community-contributed items
+        The Festivizer can be found as a bonus drop when opening the case
+    Added 3 new community-contributed taunts to the Mann Co. Store
+        Taunt: Russian Rubdown
+        Taunt: Tailored Terminal
+        Taunt: Roasty Toasty
+    Added 17 new community-created Unusual effects
+        8 new effects for Unusual hats
+        9 new effects for Unusual taunts
+    All cosmetic and taunt cases will grant Smissmas 2022 Unusual effects instead of their normal Unusual effects during the event. This does not include crates.
+    Mann Co. Store winter sale!
+    Smissmas runs through January 7th, 2023 
+
+General
+
+    Fixed some point_camera visibility issues
+    Fixed some UGC medals using the wrong skin for team RED
+    Updated backpack images for some older cosmetic cases
+    Updated winter cosmetic cases to use a winterized sound when opening
+    Updated several maps to fix localization issues
+    Updated cp_snakewater_final1
+        Fixed missing cubemaps
+        Improved blockbullets
+        Visual fixes
+
+
+    Implemented VScript
+        VScript allows mappers to embed script code (Squirrel3) into maps. This system is already being used for L4D2 and CS:GO maps.
+            Interface with entities and the world like regular Hammer logic
+            Simplify things that were previously incredibly complicated/tedious in Hammer logic
+            Interact with and control bots, bosses, player attributes, entities, and game state closely, allowing for enhanced, modified or entirely custom game modes
+            React to game events and change the outcome of certain things, such as damage calculations
+        More technical info about VScript for Team Fortress 2 is available on the Valve Developer Community
+            https://developer.valvesoftware.com/wiki/VScript
+            https://developer.valvesoftware.com/wiki/List_of_TF2_Script_Functions
+    Added the ability to change the skybox dynamically using the skybox_swapper entity or SetSkyboxTexture
+    Added support for custom MvM upgrade files packed into the map
+    Added point_worldtext, an entity that can show text dynamically, with support for multiple SDF (signed distance field) fonts, multiple colors and a rainbow mode
+    Exposed several movement related ConVars
+    Implemented support for func_monitor and cameras
+    Implemented logic_eventlistener for listening to game events from Hammer logic
+    Added the ability to pass parameters and delay to MvM populator actions
+    Improved compile time with VRAD
+    Special thanks to Jakub and everyone on the GitHub VScript Mega Issue for testing, providing feedback, and submitting requests 
+
+
+    Fixed missing footer descriptions for the Gargoyle Case and the Creepy Crawly Case
+    Updated Beaten and Bruised
+        Improved head bandage/bandaids clipping during some facial flexes
+        Fixed the style 3 and style 4 head bandages bouncing up and down during some animations
+        Fixed import errors for the Heavy and Pyro versions
+        Cleaned up the overall mesh exports
+    Updated The Pony Express to fix an issue with the jigglebones
+    Updated pd_farmageddon to fix one of the point lines that said closing instead of opening
+    Updated koth_synthetic_event
+        Fixed missing brushwork
+        Changed Toastmaster to use Setmodel
+        Removed propdata file
+
+
+    Fixed the Grim Tweeter hiding the hat/headphones
+    Updated cp_spookeyridge to fix missing tool brushes
+    Updated pd_farmageddon
+        Lighting changes
+        Minor detail changes
+        Reworked scarecrow logic to make use of the setmodel and ondeath commands
+        Set scarecrow health to 500
+        Updated menu text
+    Updated ctf_crasher
+        Fixed an edge case where a Giant's attributes weren't always granted properly
+        Fixed an edge case where if a Giant died before their door opened it would open and not receive the close input
+        Fixed an instance where a player could become trapped inside the opposing team's door
+    Updated plr_hacksaw_event
+        Fixed broken area portals
+        Fixed skybox issue
+        Fixed HHH not animating
+
+
+    Fixed missing nomip/nolod for Sniper's zombie image in the main menu
+    Fixed the match status HUD not being hidden during freezecam screenshots
+    Fixed the Safety Stripes hiding the Soldier's hat
+    Fixed tournament medals moving around while using the Taunt: Deep Fried Desire
+    Fixed a problem on ctf_crasher related to infinite giants
+    Updated pl_sludgepit_event
+        Fixed skeletons/ghosts being able to spawn again if the cart backs up over a checkpoint
+        Added an extra resupply locker in BLU's first spawn
+        Added a few more Mann brothers voice lines and fixed the map description
+        Added Soul Gargoyle pickups
+        Replaced a few skeleton spawns and reduced amount of skeletons that spawn on each cap
+        Made the map a bit spookier
+    Updated plr_hacksaw_event
+        Changed the roofing near the finale, preventing players from walking from one barn balcony to the other
+        Replaced barn balcony windows with widened doorways to streamline movement
+        Fixed the VO in the underworld playing multiple times
+        Fixed floating candles when the graves were destroyed
+        Updated the HHH to use the new "SetModel" input
+        Delayed final capture VO so they're more audible
+        Adjusted prop fades
+        Adjusted detailing
+    Updated cp_spookeyridge
+        Added significant health and ammo packs to underworld
+        Reduced damage dealt over time in underworld
+        Updated portal particles to stand out more in overworld (Thanks FissionMetroid!)
+        Added small healthpack to upper drop down area next to last
+        Adjusted ammo pack sizes around map
+        Slightly tweaked pumpkin bomb and coffin placement
+        Fixed a few areas you could get stuck in
+        Expanded area around coffins that won't allow teleporters
+        Fixed some minor clipping/collision issues
+        Adjusted some prop fades
+
+
+    Fixed point_hurt entity not always damaging Übercharged players
+    Fixed getting invalid strings for the server map list 
+
+
+    Fixed a server crash related to multiple heavies spam firing their weapons
+    Fixed trigger_add_or_remove_tf_player_attributes not interacting well with the status of other attributes
+    Fixed trigger_add_or_remove_tf_player_attributes not updating player speed correctly
+    Fixed spectators not being able to be kicked in Mann vs. Machine on official Valve servers
+    Added support for custom sounds, soundscripts, soundscapes, navmeshes and particles in workshop maps
+    Added a SetModel input to all entities with a model
+        Mappers: This replaces the previous 'addoutput modelindex' method that was used for overriding an entity's model
+    Added SetPlaybackRate and SetCycle inputs to all entities with a model
+    Added a spawnflag to point_hurt to bypass Übercharge
+    Added OnDeath output to tf_zombie entity
+    Updated 'maps *' console command to show workshop maps
+    Updated the Create Server menu to show workshop maps
+    Updated ctf_crasher
+        Giants should more reliably be killed when they drop or capture a flag
+        Fixed a minor clipping issue on the ammo pickup by the arches
+
+Updated plr_hacksaw_event to fix the Headless Horsemann not being visible 
+
+
+    Fixed a client crash related to the Ghoulpit contract
+    Fixed Sinthetic contract objective counting pumpkin bomb kills instead of killing the Toastmaster
+    Fixed Horsemann's Hack unusual effect not being visible in bright areas and optimized the particle count
+    Fixed the hook's self-ilummination for The Hook, Line, and Thinker
+    Fixed a materials problem with the Cabinet Mann
+    Fixed a clipping problem with The Imp's Imprint
+    Fixed some cosmetic cases not showing the correct skins in the Mann Co. Catalog
+    Fixed sound file references for the Taunt: Luxury Lounge pointing to missing files
+    Updated the Magical Mount and The Pony Express to be assisters in Pyrovision
+    Updated the item_type_name values for some items
+    Updated koth_sawmill_event
+        Fixed RED team portal to the underworld not enabling
+    Updated plr_hacksaw_event
+        Adjusted prop fade distances
+        Added more details across the map
+        Added overlays in some spots to make Snipers more visible
+        Filled the final death pit with billowing smoke
+        Fixed perch spots around the map
+        Fixed various displacement gaps
+        Fixed z-fighting on fence props
+        Fixed being able to place teleporters too close to your own spawn doors
+        Fixed payload sawblade damage not being consistent
+        Fixed players spawning in the overworld when the underworld race is active
+        Fixed being able to use Bonk! Atomic Punch to bypass the stun speed in the underworld race
+        Fixed being able to use the Phlogistinator to damage players in the underworld race (Thanks Barno and pinewabble!)
+        Fixed errors caused by missing gib types for crows
+        Fixed incorrect prop collisions
+        Improved fire safety
+        Prevented the HHH from falling into pits
+    Updated ctf_crasher
+        Fixed BLU flag outline not displaying properly when home
+        Tweaked nag line preparation to ensure it works correctly for both teams
+        Potential fix for casual mode lines still interrupting announcer despite being muted
+        Potential fix for edge case where giants are not killed when dropping or capturing a flag on high-load servers
+        Giant medics will no longer mirror blast jumps above certain speeds
+        Fixed dispenser sometimes not properly attaching to giants
+        Fixed having multiple giants for the same team at the same time
+    Updated pl_sludgepit_event
+        Removed spells due to an exploit where players could get out of the map
+        Added cubemaps to fix weird visuals on metallic props
+        Removed assets leftover from the non-Halloween version of the map
+    Updated pl_hasslecastle
+        Fixed invisible playerclip blocking part of the left exit door in RED's spawn room for the final cap
+        Fixed exploit that allowed buildings to be built in an area that is later shut off from both teams
+
+
+    Fixed Crasher's contract objective pointing to the wrong map
+    Fixed the Escape Hell contract objective not triggering on some maps
+    Fixed a materials problem with the More Gun Marshal
+    Fixed a materials problem with the Ghoul Blaster war paint
+    Fixed overlapping character audio during some of the new taunts
+    Updated ctf_crasher
+        Fixed some instances of the announcer being interrupted by casual mode lines
+        Cleaned up some logic safeguards that have proven unnecessary post-release
+        Fixed giant deaths despawning pumpkin bombs
+        Fixed nag lines not properly disabling on first flag pickup
+        Extended non-buildable area around flag to prevent blocking giants
+    Updated koth_sawmill_event
+        Fixed a bug where players could be stuck with low-gravity
+        Fixed a bug where players could hit their head on the kill trigger for catapulted enemies appearing from the underworlds deathpit
+
+
+    Fixed missing model for the More Gun Marshal
+    Fixed broken material for the Dustbowl Devil
+    Fixed missing style strings for Halloween cosmetic items
+    Fixed style for Beaten and Bruised cosmetic not hiding the hat/headphones
+    Fixed missing image for the Strange Filter: Bonesaw (Community)
+    Fixed Alcoholic Automaton equip_region conflicting with the Pocket Yeti
+    Fixed rigging issue with the Horror Shawl
+    Fixed scaling issues with the Malevolent Monoculi and Haunted Forever particle effects
+    Fixed material transparency issue with the Pungent Poison particle effect
+    Fixed missing Halloween 2022 Case image on the Soul Gargoyle's collections
+    Fixed incorrect descriptions for new community map stamps
+    Fixed equip_regions for The Turncoat and Safety Stripes
+    Added missing No Headphones style for The Masked Fiend
+    Updated Taunt: Drunk Mann's Cannon
+        Fixed taunt sounds not always playing
+        Fixed incorrect delays between flair opportunities
+    Updated koth_sawmill_event
+        Fixed players sometimes spawning inside each other
+    Updated plr_hacksaw_event
+        Fixed not being able to push the Red cart
+        Fixed missing materials in resupply closets
+        Fixed Horseless Headless Horsemann not being visible
+
+
+Scream Fortress XIV has arrived!
+
+    Featuring 6 new community maps: Soul-Mill, Helltrain, Bonesaw, Crasher, Ghoulpit, and Spookeyridge
+    Added the Ghoulish Gains Case
+        Contains 22 new community-created cosmetic items that make up the Ghoulish Gains Collection
+        Has a chance to give one of 5 new community-created Halloween-restricted items as a bonus item
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added 5 new community-contributed taunts to the Mann Co. Store
+        Taunt: The Scaredy-cat!
+        Taunt: Texas Twirl 'Em
+        Taunt: The Travel Agent
+        Taunt: Drunk Mann's Cannon
+        Taunt: Shanty Shipmate
+    Added 25 new community-created Unusual effects
+        12 new effects for Unusual hats
+        13 new effects for Unusual taunts
+    Added the Scream Fortress XIV War Paint Case
+        Contains 11 new community-created War Paints that make-up the Scream Fortress XIV War Paint Collection
+        Has a chance to give a taunt Unusualifier as a bonus item
+    All players who launch the game will receive a Soul Gargoyle if they don't already have one
+        Grants access to Merasmissions and Halloween item transmutations
+        Tracks Merasmissions completed and souls collected
+    All Halloween Contracts have been reset, allowing them to be completed again
+    Added new Contracts for this year's featured community maps
+    Completing a Halloween Contract will give players a classic Halloween item and the chance for a Ghoulish Gains Case or Scream Fortress XIV War Paint Case
+    Continue last year's event by collecting the souls of dead players for your Soul Gargoyle by killing enemies, doing map objectives, or collecting the Soul Gargoyles that spawn in the maps
+    All cosmetic and taunt Cases will grant Halloween 2022 Unusual effects instead of their normal Unusual effects during the event. This does not include Crates.
+    Join Halloween matches by using the Special Events category in Casual
+    Scream Fortress XIV runs through November 7th, 2022 
+
+General
+
+    Updated several maps to fix localization issues
+    Updated cp_snakewater_final1
+        Fixed walkable ledge near mid
+        Fixed match summary screen for competitive mode
+        Created some space between spawn points and door trigger in first forward spawn
+        Minor visual fixes
+
+Reverted the +quickswitch bug fix while we evaluate 
+
+Fixed being unable to equip certain valid cosmetic combinations 
+
+
+    Fixed some stability issues
+    Fixed being able to equip conflicting cosmetic items using +quickswitch
+    Fixed precached particles not being deleted across map changes
+    Fixed some hats with drop_type "drop" not being dropped in the world
+    Fixed headshot animations sometimes playing at map origin
+    Fixed missing polygon on Pyro's finger
+    Fixed clipped text in the Mann vs. Machine loot list screen
+    Fixed missing BLU skin for The Sydney Sleeper
+    Fixed some attribute descriptions being cut off in the Item Pickup dialog
+    Fixed duplicate reload sound entries in the tf_weapon_flaregun_revenge weapon script
+    Fixed players not igniting after being shot when the map has applied the TF_COND_GAS condition
+    Fixed not preserving the player's current angles when the map has applied the TF_COND_HALLOWEEN_KART condition
+    Fixed missing variables in the Canteen Crasher tournament medals. This does not affect previous versions of those medals.
+    Updated func_nobuild entity with a new setting to support destroying buildings within its perimeter when activated
+    Updated player entity with SetCustomModelWithClassAnimations input to set a custom player model that uses the class animations
+    Updated the tf_logic_cp_timer entity so it can also be used for team RED
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated the Hazard Headgear
+        Fixed using the wrong lightwarp
+        Updated the backpack image to match the item
+    Updated the Fizzy Pharmacist
+        Moved the soda bottle to the other side of the Medic to fix clipping problems
+        Fixed the second style not hiding the bottle
+    Updated pl_upward
+        Fixed exploit that allowed buildings to be built in an area that is later shut off from both teams
+    Updated cp_snakewater_final1
+        Minor visual, clipping/blockbullet, and detailing fixes
+        Fixed alignment issues
+        Fixed some mirroring issues
+        Updated mid slightly to make it more mirrored
+        Increased wall heights on mid to allow more jumps
+        Updated last spawn room to reduce the randomness of spawnpoints
+        Slightly increased cap time on last to account for longer travel time to the point
+        Speculative changes to fix some "wallbug" issues
+        Added Competitive mode stage
+
+
+    Fixed the Spy being able to disguise after picking-up the intelligence
+    Fixed some missing Announcer voice lines during the Competitive post-match summary
+    Fixed some view model draw animations not using the snap command
+    Fixed the Mann vs. Machine mission selection dialog sometimes drawing under the category controls
+    Updated the Cold Cosmos Unusual effect to fix a parenting issue
+    Updated Contagious Eruption, Daydream Eruption, and Volcanic Eruption Unusual effects
+        Fixed the highlight glow detaching itself from the effects and moving in the direction the player is moving
+        Fixed the effects being almost invisible in bright areas
+    Updated the Kazan Karategi to fix clipping issues with the Pyro's arms
+    Updated the Tropical Camo to fix the rigging and the normal map
+    Updated the Boston Brain Bucket and Pest's Pads
+        Added Blank style that was originally missed
+        Fixed style names not aligning with the styles
+    Updated the Bandit's Boots to fix a clipping issue with LOD1
+    Updated The Chaser to fix some clipping issues and correct the backpack icon
+    Updated item schema and localization files with community fixes
+    Updated/Added some tournament medals 
+
+
+    Added the Summer 2022 Cosmetic Case
+        Contains 25 new community-contributed items
+        Adds 11 new community-created Unusual effects (29 variants total)
+    Fixed a server crash caused by Sniper trying to eat his gun (switching to Sniper while Heavy is eating a Sandvich)
+    Fixed an occasional lag spike when showing the kill cam for some players
+    Fixed a regression where spotlights and spawns could not be parented
+    Fixed a regression with incorrect prop lighting on some maps such as Barnblitz
+    Fixed incorrect team colors for the default style of The Caped Crusader when using the itemtest command
+    Fixed missing materials for some Strange Filters in the Mann Co. Store
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed payload cart not rolling back
+    Fixed soundscape regression
+    Fixed being dropped from the server when refunding upgrades in Mann vs. Machine
+    Fixed jiggle bones on the inspect screen
+    Added some tournament medals 
+
+
+    Several fixes to address exploits and stability issues
+    Added a game server setting, "net_chan_limit_msec", which allows server operators to limit amount of processing time the game server can spend on processing packets for each client per tick. Clients that send packets causing server CPU processing time to exceed configured number of milliseconds will be kicked from the game server.
+    Added a game server setting, "net_chan_stats_dump" which, when enabled, will dump statistics of each network channel when that network channel is closed. Statistics include messages, bandwidth, and CPU processing time breakdown.
+    Added a game server setting, "tf_fall_damage_disablespread", to disable random fall damage (default: 0)
+    Fixed not being able to adjust the offset for a cosmetic item's Unusual effect
+    Fixed some players seeing [unknown] for their player name
+    Fixed broken transparency on cosmetics
+    Fixed lag compensation when melee-ing teammates
+    Fixed not being able to hit a player's hitbox if it extends outside the player's bounding box during an animation
+    Fixed jiggle bones rendering in the loadout and item previews
+    Fixed the Iron Bomber's projectile collision size not matching other projectile collision sizes
+    Fixed ConVar buttons flickering after being clicked to toggle the value
+    Fixed The Shortstop shove showing as self-inflicted damage
+    Fixed Mini-Sentry guns not triggering damage alerts in the HUD
+    Fixed net_disconnect_reason affecting disconnect messages on the client
+    Fixed Medi Gun charges expiring too early if a server forces add_uber_time
+    Fixed network edicts being used for server-side-only entities
+    Updated mat_picmip to allow values below -1
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated Mann vs. Machine
+        Fixed not being able to kick Spectators
+        Fixed bots not displaying the correct names
+        Fixed the loading screen backgrounds on Valve servers
+        Fixed Übercharge charge rate and duration upgrade not working for the Vaccinator
+    Updated Arena mode
+        Fixed players being able to late-join the game
+        Fixed players on team Unassigned being able to kill other players
+
+
+    Fixed the client disconnect reason not always displaying
+    Fixed sv_vote_holder_may_vote_no ConVar to work with the recent vote changes
+    Fixed Spy feign deaths not showing the correct class portraits
+    Fixed the backpack materials for the Rewired Rampage Perilous Peridots and Quarrelous Quartz community medals 
+
+
+    Fixed an exploit related to clearing the in-game text chat
+    Fixed an exploit where players could use sv_cheats on secure servers
+    Fixed an exploit where players could teleport back to their own spawn by changing loadout/class while touching the other team's No Entry gate
+    Fixed an exploit with the Huntsman in which a player could change loadout to negate the speed debuff when charged
+    Fixed an exploit with the Ap-Sap where players could spam noises
+    Fixed an exploit where dispensers could heal through glass on some maps
+    Fixed an exploit where a Spy could disguise and create an invisible bullet blocking shield at their feet
+    Fixed laggy animations on Halloween bosses, skeletons, ghosts and other ghoul-like beings
+    Fixed the Spy using incorrect disguise weapons when disguising as Soldier, Pyro, Heavy or Engineer with no member of the same class on the opposing team
+    Fixed projectiles sometimes colliding with teammates too early/late
+    Fixed being able to change names during a matchmaking game
+    Fixed some HUD images being blurry when using low texture settings
+    Fixed the Spy's feigned deaths with the Dead Ringer not showing up in the matchmaking quick team status bar
+    Fixed %killername% and other placeholder names sometimes showing up on the kill cam and stats screen
+    Re-enabled ability for servers to send disconnect reasons to clients
+        Added ConVar net_disconnect_reason to use the disconnect reason sent from the client
+    Removed Headgear option from the Mann Co. Catalog dropdown list
+    Updated vote system
+        Both teams can have a kick vote running at the same time
+        Can have a global vote running at the same time as a kick vote
+        Fixed sometimes not being able to vote on maps at the end of the round
+    Updated the El Fiestibrero to fix a problem with the model
+    Updated/Added some tournament medals
+    Updated the localization files
+
+
+    Updated Taunt: Shooter's Stakeout to fix LOD bugs
+    Updated class portraits with nomip/nolod flags 
+
+
+    Fixed particle effects regression when players are killed
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Security and stability improvements
+    Fixed a client crash related to previewing market items
+    Fixed Strange cosmetic items not counting buildings_destroyed for buildings destroyed by a sapper
+    Fixed looping particle effects being orphaned when players are killed or force-respawned
+    Fixed Taunt: Shooter's Stakeout using one of the Engineer's voice lines
+    Updated Smissmas Swirls, Amethyst Winds, and Golden Gusts Unusual effects
+        Fixed visibility issues in bright environments
+        Reduced delay before the swirls start in order to accommodate short taunts
+    Updated Sparkling Spruce, Glittering Juniper, and Prismatic Pine Unusual effects
+        Raised the default height of the effect in order to prevent clipping issues
+    Updated the Sparkling Lights Unusual effect
+        Fixed visibility issues in bright environments
+    Updated Condescending Embrace Unusual effect
+        Fixed the effect not moving when taunting
+
+
+
+    Fixed disguised/cloaked spies being able to block player destruction captures
+    Updated Minty Cypress, Pristine Pine, and Sparkly Spruce Unusual taunt effects to improve visibility in bright areas
+    Updated pl_breadspace
+        Fixed being able to place buildings in the forward BLU spawn room
+    Updated pl_wutville_event
+        Fixed a few static_prop models being used to stand on high up in the map
+    Updated cp_altitude
+        Fixed tree models in the 3D skybox using the wrong skin
+
+
+    Fixed not being able to preview Community Market items in-game
+    Updated the localization files
+    Updated cp_altitude
+        Increased capture time on A
+        Increased BLU respawn time on A
+        Increased RED respawn time on B
+        Increased delay before BLU’s first forward spawn activates after A is captured
+        Fixed RED having access to a spectator camera on A after the point was captured
+        Fixed case where BLU could enter RED’s forward spawn after B was captured
+        Fixed a missing respawn visualizer in BLU's first spawn
+        Fixed a texture issue on C cable car tower
+        Updated menu photos
+        Visual adjustments
+
+
+    Fixed movement bug related to the Cow Mangler 5000
+    Fixed Taunt: The Hot Wheeler sounds not always playing
+    Updated Winter Spirit, Festive Spirit, and Magical Spirit Unusual taunt effects with performance improvements
+    Updated pl_breadspace
+        Fixed an bug where BLU could teleport into RED spawn
+        Fixed an animation error within the final arena
+        Fixed some displacements seams
+        Deleted some light effects no longer in use in the final area
+
+
+    Fixed Your Eternal Reward ragdolls not fading
+    Fixed Wrap Assassin projectiles colliding with invisible map entities
+    Fixed ConTracker counting kills twice
+    Fixed Halloween: Exorcism spell not being triggered by feign deaths
+    Updated schema drop_type for hats shipped in the last few updates
+    Updated Spark of Smissmas Unusual effect
+        Fixed some slight coloring issues
+        Adjusted lifetime values
+    Updated The Giftcrafter and Beanie The All-Gnawing to fix material/model issues
+    Updated the Steam Workshop dialog to support skipping several pages at once
+        ConVar tf_steam_workshop_page_skip controls the number of pages to skip. Default is 10.
+        Supports wrapping around the beginning and end of the list
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated ctf_doublecross_snowy
+        Fixed missing texture
+        Fixed a few minor visual issues
+    Updated pl_breadspace
+        Fixed some clipping around cliffs and BLU base
+        Fixed a bug where players could get stuck behind a wall of computers near the final point
+        Fixed location by BLU spawn where you can build under cliff
+        Fixed an issue with sound in the final sequence
+        Fixed decals
+        Fixed missing Breadcrab animations
+        Added updated drill model
+        Added normal maps for the rock cliffs
+        Added missing decals and logos
+        Added bread chunks that fly when Big Mama explodes
+        Optimized areas to reduce lag
+        Updated backpack and matchmaking images
+
+
+    Updated the Smissmas Tree Unusual effect to improve performance
+    Updated El Fiestibrero to fix clipping issues
+    Updated The Giftcrafter to fix a problem with the materials
+    Updated the Unusual Cap to fix the rotation of the unusual attachment
+    Updated the Ominous Offering to add the counts_as_assister attribute
+    Updated The Argyle Ace with community Jarate fix from Andrés S. (rabscootle)
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated pl_coal_event
+        Added a second route into C
+        Detail fixes
+        Optimization
+    Updated pl_chilly
+        Fixed few models not being solid
+        Fixed few gift model collisions
+        Fixed few spots where players were able to stand on in thin air
+        Fixed hand truck from blocking players at the indoor area
+        Fixed rare case of the payload cart not exploding when round ends at the pit
+        Fixed being able to stand on the tip of the end rocket
+        Fixed enemy being able to shoot at BLU 1st base spawn basement
+        Minor visual fixes
+        Improved clipping
+    Updated ctf_doublecross_snowy
+        Fixed a number of visual issues
+        Fixed a number of clipping issues
+        Added nobuild triggers to spawn doors
+        Major reforestation initiative funded
+
+
+    Updated the Festive Frames to add missing styles that don't hide the hat
+    Fixed backpack image for the Winter 2021 Cosmetic Key
+    Renamed Smissmas Swirl Unusual effect to Spiraling Lights
+    Updated Polar Forecast, Spiraling Lights, and Twisting Lights Unusual effects
+    Updated the Train of Thought
+        Fixed model issues
+        Added Genteel Smoke effect
+    Updated cp_altitude
+        Fixed a clipping exploit that allowed players to build out of bounds
+        Fixed a clipping exploit that allowed players to stand above BLU's first spawn
+        Fixed a rendering priority issue with a respawn visualizer in BLU's first spawn
+    Updated pl_coal_event
+        Fixed a clipping issue with a window
+        Fixed a displacement
+
+Happy Smissmas 2021!
+
+    All players who play TF2 during the event will receive a Stuffed Stocking as a gift! Stockings contain goodies for good little Mercenaries.
+    Featuring 6 new community maps: Altitude, Bread Space, Cascade, Chilly, Doublefrost, and Polar
+    Added the Winter 2021 Cosmetic Case
+        Contains 20 new community-contributed items
+        The Festivizer can be found as a bonus drop when opening the case
+    Added 3 new community-contributed taunts to the Mann Co. Store
+        Taunt: Doctor's Defibrillators
+        Taunt: Shooter's Stakeout
+        Taunt: The Hot Wheeler
+    Added 27 new community-created Unusual effects
+        16 new effects for Unusual hats
+        11 new effects for Unusual taunts
+    All cosmetic and taunt cases will grant Smissmas 2021 Unusual effects instead of their normal Unusual effects during the event. This does not include crates.
+    Mann Co. Store winter sale!
+    Smissmas runs through January 7th, 2022 
+
+General
+
+    Fixed Engineer losing metal when hitting damaged buildings while they are being re-deployed after pick-up
+    Fixed Wrap Assassin projectiles colliding with other projectiles and func_lod entities
+    Fixed Halloween: Voices From Below spell not working correctly with more taunts and the Ready voice lines
+    Updated soundlevels for some competitive mode sounds
+    Updated the description for the Blutsauger to clarify its attributes
+    Updated sound channels for some voice lines
+    Updated hurtme command to allow negative health values when using sv_cheats
+    Updated koth_probed to fix an error model
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed Dragon's Fury projectiles colliding with other projectiles
+    Fixed Dragon's Fury, Short Circuit, and tf_projectile_energy_ring projectiles colliding with func_lod entities
+    Fixed tf_projectile_energy_ring projectiles not colliding with tf_generic_bomb entities
+    Fixed an exploit related to opening the ConTracker while the taunt menu is open
+    Fixed an issue with props and team colors when taunting with Australium weapons
+    Fixed servers not being able to load Mann vs. Machine .pop files for workshop maps
+    Fixed not being able to apply Strange Parts to the Battery Canteen and other Strange powerup bottles
+    Fixed large bundle descriptions being clipped in the Mann Co. Store
+    Fixed Halloween: Voices From Below spell not working correctly with the Taunt: Bad Pipes
+    Fixed a sound bug related to using The Huntsman and the Taunt: Zoomin' Broom
+    Fixed players receiving knockback from enemy weapons during a truce
+    Updated Mann vs. Machine mode
+        Fixed an infinite health exploit for Snipers using The Razorback
+        Fixed the incorrect .pop file being loaded during map change when using tf_mvm_missioncyclefile
+    Updated the Strange ranks for the Razorback to be similar to the Manntreads
+    Updated The Mislaid Sweater and Beanie The All-Gnawing to fix issues with the materials
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated koth_synthetic_event
+        Fixed some prop pop in
+        Added backup check to try to make sure the point is set to neutral when the toastmaster spawns
+        Increased volume of toastmaster summon sounds to make it more obvious when he spawns
+    Updated pd_farmageddon
+        Updated scarecrow logic to make damaging them more consistent
+        Fixed incorrect farmer line playing sometimes when the cap opens
+        Added func_respawnflag back to the acid area in cap zone that mysteriously vanished
+        Fixed some floating props and beams
+        Added team specific teleporter destinations for teleporting players out of the cap zone when a round is over. This should stop players getting stuck in each other.
+        Cap point open sprite should no longer appear at the start of a round if the cap opened during "waiting for players"
+        Blocked off sentry spot under the ramps at mid because it was too advantageous
+    Community request
+        Added new item_teamflag ouputs OnPickup1, OnDrop1, and OnCapture1 that fire outputs with the player as the activator
+
+
+    Fixed a client crash related to right-clicking an input field to open the context menu
+    Updated Taunt: The Dueling Banjo to add a missing sound file
+    Updated spelling for Sarsparilla Sprayed to Sarsaparilla Sprayed
+    Updated The Mislaid Sweater and Beanie The All-Gnawing to fix issues with the backpack images
+    Updated contributors display list for Los Muertos to add a missing contributor
+    Updated Megalo map stamp to fix incorrect image
+    Updated border color for Unusual items in the loadout menu
+    Updated the localization files
+    Updated cp_ambush_event
+        Fixed building inside wall exploit
+        Fixed some lamps that were hovering in the air
+        Fixed a few misaligned textures
+        Improved clipping
+    Updated pd_farmageddon
+        Underworld hurt trigger now works as last update explained
+        Fixed visable nodraw entity
+    Updated arena_lumberyard_event
+        Fixed a missing material in RED spawn
+        Changed the ghost particles in the 3d skybox
+        The team-colored ghosts that appear on round win now last longer and are more plentiful
+        The constant, purple-colored ghosts are now less abundant
+        Added various clipping improvements around the map
+        Added smoke to the chimneys
+        Added a line of sight check to the ghost dispensers so you can no longer provide benefits through walls
+        Removed the Observer
+
+
+    Bug fixes to Steam Datagram Relay (SDR) support. This is currently in limited testing. We will have more info about this when it rolls out more broadly. 
+
+
+    Fixed the description for the World Traveler's Hat not supporting all of the community maps at the same time
+    Updated The Missing Piece and The Mislaid Sweater to fix issues with the materials/models
+    Updated Mann vs. Machine
+        Added checks to prevent loading an invalid .pop file
+        Fixed several .pop file references from "Witch Hat" to "Point and Shoot"
+    Updated cp_ambush_event
+        Fixed an out of the map exploit
+        RED team now respawns on stage 2 after the 1st point has been captured
+        Improved clipping
+        Nature & Wildlife preservation measures
+    Updated koth_synthetic_event
+        Fixed a location where teleporters could trap players outside of the map
+        Minor lighting changes
+        Detail changes to make things more cohesive
+        Updated color on BLU barrels
+        Fixed some console errors
+    Updated pd_farmageddon
+        Minor lighting changes to brighten up a few spots
+        Updated .nav mesh to fix scarecrows not chasing players
+        Minor detail changes
+        Updated announcer lines so they are easier to hear
+        Removed general damage in the capture area while the point is unlocked
+
+
+    Fixed missing material and sound issues for the Taunt: Bare Knuckle Beatdown
+    Fixed clipping issue for the Taunt: The Profane Puppeteer
+    Fixed some sounds for the Taunt: The Mannbulance!
+    Updated The Scariest Mask EVER with Hat/NoHat styles to prevent some clipping issues
+    Updated the Wandering Wraith, Corpse Carrier, Beanie The All-Gnawing, and Computron 5000 to fix issues with the materials/models
+    Updated the pickup/drop sounds for paintkits
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated cp_ambush_event
+        Fixed few exploits where players could get out of the map
+        Fixed control point 2 base plate in stage 1 not turning blue upon capture
+        Changed damage type from shock to bullet in underworld
+        Improved clipping
+    Updated pl_terror_event
+        Fixed few exploits where players could get out of the map
+        Increased spawn time interval of normal spellbooks
+        Fixed visual issue during warmup period regarding track models floating in air
+        Adjusted payload track select logic to fix rare issue with cart going off track
+        Improved clipping
+    Updated koth_los_muertos
+        Fixed a respawn visualizer not showing up on the RED side
+        Fixed falling off the edge when entering the Land of the Dead with higher than normal movement velocity. Now when entering the portal, player speed will be set to 0.
+        Fixed being able to spam grenades and rockets through rooftops
+    Updated arena_lumberyard_event
+        Fixed missing beacon particle to signify rare spell spawn locations
+        Fixed an issue with custom HUDs interfering with the map's own HUD
+        Fixed middle doors shutting themselves when blocked by a player
+        Fixed various props z-fighting inside of walls
+        Fixed instances of the announcer lines playing over the Merasmus' announcer lines
+        Fixed an issue that caused players to remain in third-person at the beginning of a new round
+        Fixed spells dropped by the skeleton king persisting between rounds
+        Fixed pumpkin bombs generated from spells persisting between rounds
+        Fixed server lag caused by dynamic props
+        Reworked various VO to use new soundscript entries
+        Merasmus will now react to player deaths with varying degrees of sarcasm
+        Pumpkin bombs will now all refresh simultaneously at the start of every round
+        Added a "No entry" sign to the middle doors
+        Smoothed surfaces around the map to ease flying around as a ghost
+        Increased sound of the ghost dispenser to improve healing feedback
+        Extended the warmup periods by 5 seconds (now 15 seconds)
+        Nature & Wildlife preservation measures
+        Removed the Observer
+
+Updated The Corpse Carrier
+
+    Added the Holiday Restriction: Halloween / Full Moon
+    Players who currently have this item will receive another random item from the Crimson Cache Collection
+    The item has been moved from the Crimson Cache Collection to the list of possible bonus items received when opening a Crimson Cache Case
+
+
+    Fixed The Bone Cone hiding the player's head
+    Fixed missing clap sound for the Taunt: The Homerunner's Hobby
+    Fixed missing siren sound for the Taunt: The Mannbulance!
+    Fixed LOD and loop bug for the Taunt: Bare Knuckle Beatdown
+    Updated Towering Patch of Pumpkins, Poopy Doe, The Miami Rooster, and the Spooky Head-Bouncers to fix issues with the materials
+    Updated the Goalkeeper and Eyequarium items with Hat/NoHat styles to prevent some clipping issues
+    Updated the Shrieking Shades Unusual effect to prevent a naming conflict with another effect
+    Updated the Spectral Shackles Unusual effect to fix some material and rendering issues
+    Updated the Thundering Spirit Unusual effect to fix a missing glow effect
+    Updated the 2nd objective for the Graveyard contract to be "Survive 500 damage in a single life on Graveyard"
+    Updated the localization files
+    Updated the Swashbuckled war paint
+        Fixed an issue with the Holy Mackerel
+        Removed Yeti gradient
+        Replaced Yeti gun oil sticker with skull and crossbones
+    Updated the Necromanced war paint
+        Fixed an issue with the Holy Mackerel
+        Fixed BLU team colors
+    Updated pd_farmageddon
+        Optimizations
+        Fixed asymmetrical doorways
+        Fixed players being pushed into the ground instead of killed when Gourdon's mouth closes
+    Updated koth_synthetic_event
+        Replaced broken prop in room behind BLU spawn
+        Fixed console warnings
+        Fixed a place where players could get out of the map
+    Updated koth_los_muertos
+        Fixed console warnings
+    Updated pl_terror_event
+        Fixed RED players sometimes spawning into 2nd RED spawn instead of 1st one
+        Fixed a cosmetic issue with RED spawn door in the 2nd spawn area
+        Fixed players being able to see out of map
+        Added a 2 spots for collectable gargoyle to spawn in
+        Added missing nav for bots in the underworld
+    Updated cp_ambush_event
+        Fixed players being able to get out from playable area in underworld
+        Fixed players teleporting and getting stuck on each other when going through portal in underworld on stage 3
+        Fixed some stage 3 BLU spawn respawn visualizers looking odd
+        Slightly moved some underworld enter portals off from walls
+        Slightly decreased time added when capping last points of 1st and 2nd stage
+        Fixed some places where players could get out of the map
+
+Scream Fortress XIII has arrived!
+
+    Featuring 6 new community maps: Farmageddon, Sinthetic, Los Muertos, Erebus, Terror, and Graveyard
+    Added the Crimson Cache Case
+        Contains 20 new community-created cosmetic items that make up the Crimson Cache Collection
+        Has a chance to give one of 5 new community-created Halloween-restricted items as a bonus item
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added 5 new community-contributed taunts to the Mann Co. Store
+        Taunt: The Drunken Sailor
+        Taunt: The Profane Puppeteer
+        Taunt: The Mannbulance!
+        Taunt: Bare Knuckle Beatdown
+        Taunt: The Homerunner's Hobby
+    Added 28 new community-created Unusual effects
+        15 new effects for Unusual hats
+        13 new effects for Unusual taunts
+    Added the Scream Fortress XIII War Paint Case
+        Contains 13 new community-created War Paints that make-up the Scream Fortress XIII War Paint Collection
+        Has a chance to give a taunt Unusualifier as a bonus item
+    All players who launch the game will receive a Soul Gargoyle if they don't already have one
+        Grants access to Merasmissions and Halloween item transmutations
+        Tracks Merasmissions completed and souls collected
+    All Halloween Contracts have been reset, allowing them to be completed again
+    Added new Contracts for this year's featured community maps
+    Completing a Halloween Contract will give players a classic Halloween item and the chance for a Crimson Cache Case or Scream Fortress XIII War Paint Case
+    Continue last year's event by collecting the souls of dead players for your Soul Gargoyle by killing enemies, doing map objectives, or collecting the Soul Gargoyles that spawn in the maps
+    All cosmetic and taunt Cases will grant Halloween 2021 Unusual effects instead of their normal Unusual effects during the event. This does not include Crates.
+    Join Halloween matches by using the Special Events category in Casual
+    Scream Fortress XIII runs through November 7th, 2021 
+
+General
+
+    Fixed being able to remove name/description tags from a couple of the stock items
+    Added ConVar "tf_delete_temp_files" to control custom player sprays and other temp files being deleted on shutdown
+        Can be toggled in the Advanced Options dialog
+        Default is to delete the temp files
+    Updated Bat Outta Hell to fix an issue with the materials
+    Updated koth_slasher
+        Reduced round timer to 6 minutes
+        Removed truces from Merasmus and Monoculus events
+        Fixed an exploit where players could get behind the Otherworld's cabin and attack unsuspecting players
+        Fixed a series of hairline perches in the yards
+        Fixed a pair of visible nodraw entities outside of the spawns
+        Fixed an exploit where players using the Minify spell could hide in the caves
+        Added a strange rustling over there in the woods... ?
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed another bug where some methods of connecting to Steam would not honor the -ip command line parameter 
+
+
+    Fixed a bug where some methods of connecting to Steam would not honor the -ip command line parameter 
+
+    
+    Added ConVar "sdr_spew_level" for clients and servers to control SteamNetworkingSockets console spew. Default is 4 (warning).
+    Fixed official TF2 bots displaying avatars in the scoreboard during modes like Offline Practice
+    Updated the War Paint inspection panel to support all seed values
+    Updated custom player sprays and other temp files to only be deleted on shutdown 
+
+
+    Fixed an exploit related to players impersonating other Steam accounts
+    Updated custom player sprays to be disabled for players by default
+        Players can opt-in to see custom player sprays on community servers in the Advanced Options menu
+        Custom player sprays and other temp files will be deleted on startup and when disconnecting from a server
+    Fixed an exploit related to creating unnamed Normal quality items
+    Removed the disconnect reason when a player leaves the server
+    Fixed the Fireproof Secret Diary not cloaking
+    Fixed the Medic's weapon not hiding during the High Five taunt
+    Fixed the equip_region for the Crocodile Dandy
+    Fixed taunt_medic_heroic.wav not playing during case openings and trade-ups
+    Fixed the Heavy being able to crouch and jump while stunned
+    Fixed overhead player icons not drawing while connected to match servers
+    Fixed Dragon's Fury projectiles not passing through tf_generic_bomb entities
+    Updated the tf_generic_bomb entity to allow passing the activator in the OnDetonate output
+        Toggle this feature using the Pass Activator option. Default is No.
+    Updated several of the Summer 2021 cosmetic items to add item_type_name descriptions
+    Updated the Coffin Nail warpaint for the shotgun to add the missing "has team color paintkit" attribute
+    Updated material for the Hazard Headgear to fix problems with painting and using minmap
+    Updated item schema with community fixes from Andrés S. (rabscootle)
+    Updated Spy invis materials with community fixes from Liam Stone (boba)
+    Updated description of the "Strange Part: Player Hits" item to match its name
+    Updated materials for the Time Out Therapy taunt
+    Updated the material for the RED dueling icon to match the BLU dueling icon
+    Updated backpack images for the Mislaid Sweater and Mr. Quackers to fix size and centering issues
+    Updated the description for the Backpack Expander
+    Updated the Resonation, Aggradation, and Lucidation unusual effects to fix a problem when taunting
+    Updated Golden Wrench, Saxxy, and Golden Frying Pan kills to use the Australium background for death notices
+    Updated the link for the New User Forum button in the main menu
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated cp_snakewater_final1
+        Minor visual fixes
+        Minor clipping fixes
+        Slightly increased spawn time when attacking last
+        Fixed some jumps being made impossible in previous update
+        Made some areas like respawn doors smoother to walk past
+        Nature & Wildlife preservation measures
+
+
+    Fixed players not being able to download large custom maps from servers
+    Added check to prevent players without admin access using the dump_all_caches server command 
+
+
+    Added the Summer 2021 Cosmetic Case
+        Contains 18 new community-contributed items
+        Adds 6 new community-created Unusual effects
+    Numerous security and stability improvements
+    Added a cooldown before a player can create a vote when they join a match already in-progress
+        sv_vote_late_join_time controls the grace period after the match starts before the cooldown is applied: default 90 secs
+        sv_vote_late_join_cooldown controls the length of the cooldown: default 5 min
+    Kick votes will end early and automatically pass if the vote target leaves the match during the vote
+    Added a ConVar to control players changing their name during a match
+        tf_allow_player_name_change: default is 1
+        Matchmaking servers will set this to 0
+    Updated the player list in the vote-kick dialog to show the time each player has been connected to the server
+    Removed the disconnect reason from the message when players leave the server
+    Updated the Mann vs. Machine "inspect" command to only work for players in your party or in your Friends list
+    Moved materials for community particle effects into the Effects/workshop sub-folder to distinguish them from Valve materials
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated cp_snakewater_final1
+        Fixed clipping throughout map
+        Fixed explosion splash being caught by objects throughout map
+        Made movement smoother throughout map
+        Reworked some problematic areas like the kitchen
+        Minor visual enhancements throughout the map
+    Updated cp_process
+        Fixed incorrect skin for the Red radio tower
+
+
+    Added a round timer to cp_powerhouse
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Added pl_pier to the list of maps for Casual matchmaking
+    Updated pl_pier
+        Added additional exits to forward spawns
+        Added windows to RED final spawn
+        Added small platform to the first beach
+        Improved general clipping
+        Players can no longer build on the tables in RED spawn
+
+
+    Fixed a client crash related to inspecting the same item twice
+    Fixed the Strange Count Transfer Tool not being able to transfer stats between Mad Milk and Mutated Milk
+    Fixed the equip_region for Pebbles the Penguin
+    Fixed not being able to use Taunt: The Table Tantrum Unusualifier on Taunt: The Boiling Point
+    Updated Taunt: The Pooped Deck to fix some sounds
+    Updated the localization files
+    Updated ctf_snowfall_final
+        Fixed an issue some players were having with candy cane textures
+        Updated the lighting
+    Updated pl_wutville_event
+        The Smissmas trees are now properly colliding with mercs and ordinance
+        The larger first BLU spawn has been re-zoned for proper class changes and no more Engineer shenanigans
+        Wooden crates and furniture from the 2Fort division has had the minimum DirectX levels restored and should now be visible to mercs
+        Clipping of ledges and outcroppings around the Control Points has been installed to keep the merc's boots on the ground
+        The train tunnels will no longer allow for early escape
+
+
+    Fixed the Spy's arms not cloaking
+    Updated Taunt: Spin-to-Win to fix an animation timing issue
+    Updated Taunt: The Pooped Deck with missing animations and sounds
+    Updated the equip_region for The Cammy Jammies
+    Updated the localization files 
+
+
+    Fixed Strange war paint weapons not including the Strange attribute in their name
+    Fixed an issue with the Select Style and Adjust Unusual dialogs not displaying properly in the loadout panel at some resolutions
+    Added jingle sound to the Elf Care Provider
+    Added Taunt: The Table Tantrum to the list of items for the Unusualifier
+    Updated the Anodized Aloha war paint to fix an issue with the Back Scratcher
+    Updated Taunt: The Fist Bump to add a particle effect on success
+    Updated Taunt: The Boston Boarder to fix moving forward too early
+    Updated Taunt: Spin-to-Win to have the sign stay longer at the end of the taunt
+    Updated web page with community fixes from Liam Stone (boba)
+    Updated Spy invis materials with community fixes from Liam Stone (boba)
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated pd_snowville_event
+        Fixed ground texture incompatibility with mat_specular 0
+        Fixed clipping issues
+        Rewrote HUD file to not conflict with custom HUDs
+        Festivized the middle pine tree
+    Updated pl_pier
+        Expanded hallways to BLU spawn exits
+        Players can no longer build inside RED spawn
+        Fixed rock occasionally missing a texture
+        Fixed clipping not covering some roof overhangs
+
+Happy Smissmas 2020!
+
+    All players who play TF2 during the event will receive a Stuffed Stocking as a gift! Stockings contain goodies for good little Mercenaries.
+    Featuring 4 new community maps: Pier, Snowfall, SnowVille, and Wutville
+    Added the Winter 2020 Cosmetic Case
+        Contains 20 new community-contributed items
+        The Festivizer can be found as a bonus drop when opening the case
+    Added the Winter 2020 War Paint Case
+        Contains 13 new community-created War Paints that make-up the Winter 2020 Collection
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added 8 new community-contributed taunts to the Mann Co. Store
+        Taunt: The Pooped Deck
+        Taunt: Time Out Therapy
+        Taunt: Rocket Jockey
+        Taunt: The Boston Boarder
+        Taunt: Scorcher's Solo
+        Taunt: Texas Truckin'
+        Taunt: Spin-to-Win
+        Taunt: The Fist Bump
+    Added 19 new community-created Unusual effects
+        12 new effects for Unusual hats
+        7 new effects for Unusual taunts
+    All cosmetic and taunt cases will grant Smissmas 2020 Unusual effects instead of their normal Unusual effects during the event. This does not include crates.
+    Mann Co. Store winter sale!
+    Smissmas runs through January 7th, 2021 
+
+General
+
+    Fixed exploit where players could use "retry" in the console to reset the MvM timer and prevent the wave from starting
+    Updated item schema with community fixes from Andrés S. (rabscootle)
+    Updated web page with community fixes from Liam Stone (boba)
+    Updated Spy invis materials with community fixes from Liam Stone (boba)
+    Updated materials with community fixes from Andrés S. (rabscootle) and NeoDement to fix broken Jarate effect
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Mannpower update
+        Dominant players are now marked for death only when carrying a powerup
+        Shield charge meter passive refill rate reduced. Reduction is greater when carrying a powerup
+        Items or actions that add to the shield charge meter now add less when carrying a powerup
+        Carried buildings now deploy faster than default, but not instant
+        Decapitating swords no longer get the base melee damage boost other melee weapons get in Mannpower
+        Strength powerup no longer multiplies critical damage
+        Medic
+            Powered up medics with unpowered up targets get a less reduced heal rate (50% -> 75% of default rate)
+            Reduced ubercharge gain on Ubersaw hit in Mannpower. 40% of regular rate if not powered up, 20% of regular rate if powered up
+
+
+    Updated item schema with community fixes from Andrés S. (rabscootle)
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated pl_bloodwater
+        Fixed a Minify spell exploit at point A
+        Removed the Horseless Headless Horsemann from the map
+        Updated the underworld to give a rare spell when escaping
+
+
+    Updated the Jupiter Jetpack to not hide the Pyro grenades
+    Updated The Great Deflate achievement to include the Balloonicorpse
+    Updated pl_hasslecastle
+        Fixed more out-of-bounds exploits
+        Improved clipping
+        General improvements
+    Updated koth_undergrove_event
+        3v3 participants will now be healed and extinguished upon entering a 3v3 portal, in addition to when the 3v3 begins and ends
+        Reduced the delay after winning a 3v3 before players are teleported back to the overworld
+        Fixed Wrap Assassin/Pomson 6000 projectiles not firing correctly in the indoor areas
+        Polished clipping around the capture point
+        Polished some textures on RED's side
+        Fixed several console errors that appeared upon map load
+        Minor lighting fixes
+
