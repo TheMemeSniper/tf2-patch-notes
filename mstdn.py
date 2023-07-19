@@ -7,7 +7,7 @@ Mastodon.create_app(
    api_base_url = 'https://wetdry.world',
     to_file = 'pytooter_clientcred.secret'
 )
-"""
+
 
 mastodon = Mastodon(client_id = 'pytooter_clientcred.secret',)
 mastodon.log_in(
@@ -15,21 +15,19 @@ mastodon.log_in(
     'the password of all time',
     to_file = 'pytooter_usercred.secret'
 )
-
+"""
 def gen(model, state):
     if model == 0:
         import models.main as model
-        text = model.generate(state)
     elif model == 1:
         import models.worse as model
-        text = model.generate(state)
     elif model == 2:
         import models.clusterfuck as model
     
     buffer = ""
 
     for i in range(randint(3,20)):
-        text = model.generate()
+        text = model.generate(state)
         buffer = buffer + (f"- {text}\n")
     
     return buffer

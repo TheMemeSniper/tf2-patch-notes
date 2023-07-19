@@ -9,20 +9,12 @@ from random import randint
 def gen(model, state):
     if model == 0:
         import models.main as model
-        text = model.generate(state)
     elif model == 1:
         import models.worse as model
-        text = model.generate(state)
     elif model == 2:
         import models.clusterfuck as model
     
-    buffer = ""
-
-    for i in range(randint(3,20)):
-        text = model.generate()
-        buffer = buffer + (f"- {text}\n")
-    
-    return buffer
+    return model.generate(state)
 
 choice = randint(0,2)
 state = randint(1,4)
