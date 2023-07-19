@@ -27,6 +27,6 @@ def gen(model, state):
 choice = randint(0,2)
 state = randint(1,4)
 
-text = gen(choice)
+text = gen(choice, state)
 
 print(text)

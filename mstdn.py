@@ -59,7 +59,7 @@ def returnpost(text, model):
 choice = randint(0,2)
 state = randint(1,4)
 
-text = gen(choice)
+text = gen(choice, state)
 
 post(text, choice)
     
