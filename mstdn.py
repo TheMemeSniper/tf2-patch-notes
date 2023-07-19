@@ -1,6 +1,6 @@
 from mastodon import Mastodon
 from random import randint
-from os import path
+
 """
 Mastodon.create_app(
    'TF2 Markov Generator',
@@ -16,13 +16,13 @@ mastodon.log_in(
     to_file = 'pytooter_usercred.secret'
 )
 
-def gen(model):
+def gen(model, state):
     if model == 0:
         import models.main as model
-        text = model.generate()
+        text = model.generate(state)
     elif model == 1:
         import models.worse as model
-        text = model.generate()
+        text = model.generate(state)
     elif model == 2:
         import models.clusterfuck as model
     
@@ -57,6 +57,7 @@ def returnpost(text, model):
 
 
 choice = randint(0,2)
+state = randint(1,4)
 
 text = gen(choice)
 

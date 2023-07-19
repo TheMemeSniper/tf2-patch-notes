@@ -1241,14 +1241,7 @@ General
     Updated pl_bloodwater
         Fixed a Minify spell exploit at point A
         Removed the Horseless Headless Horsemann from the map
-        Updated the underworld to give a rare spell when escaping
-
-
-    Updated the Jupiter Jetpack to not hide the Pyro grenades
-    Updated The Great Deflate achievement to include the Balloonicorpse
-    Updated pl_hasslecastle
-        Fixed more out-of-bounds exploits
-        Improved clipping
+        Upelciusproved clipping
         General improvements
     Updated koth_undergrove_event
         3v3 participants will now be healed and extinguished upon entering a 3v3 portal, in addition to when the 3v3 begins and ends
@@ -1259,3 +1252,1610 @@ General
         Fixed several console errors that appeared upon map load
         Minor lighting fixes
 
+
+    Updated koth_viaduct_event
+        Fixed Engineers building teleporters in the spawn rooms
+    Updated pl_precipice_event_final
+        Fixed missing models
+    Updated pl_bloodwater
+        Removed an unintended clip brush passing through a BLU spawn wall
+        Added occluders
+    Updated pl_hasslecastle
+        Fixed BLU players spawning in the wrong spawn room
+        Fixed Engineers building teleporters the first BLU spawn room
+        General improvements
+    Updated pl_rumble_event
+        Fixed Merasmus uttering round start voice lines randomly during mid round
+        Fixed some misaligned textures
+        Fixed a tree from hovering in underworld
+        Fixed few models fading too late or too soon
+        Fixed clock sometimes triggering underworld entrances during bumper kart race
+        Fixed Merasmus from spawning if the race was already over
+        Fixed push trigger in underworld being too low
+        Improved clipping around the map
+
+
+    Fixed players not being able to rocket jump or stickybomb jump during a truce
+    Fixed missing War Paint icons in the Steam Community Market
+    Updated the Impish Ears to add a missing style
+    Updated the equip_region for the Gourd Grin
+    Updated The Ghoul Box to fix an issue with the materials
+    Updated pl_hasslecastle
+        Added occluders to improve optimization
+        Added a spell book near the first RED spawn and the first BLU spawn
+        Brightened up some areas
+        Fixed some texture misalignments
+        Reduced the saturation of purple spell book patches
+        Changed the ending when BLU wins
+        Fixed the arrow signs not changing near the first RED spawn
+        Fixed an out-of-bounds exploit near the first point
+        Fixed an out-of-bounds exploit in the second BLU spawn
+        Fixed an out-of-bounds exploit near the cliff at the second-to-last point
+        Changed the doors in the second BLU and the first RED spawn rooms to standard ones
+        Fixed a displacement error near the entrance to the last point
+        Moved the resupply cabinet from the second BLU spawn out of the wall
+        Updated the "Kill with a pumpkin bomb" bonus objective to be "Win a round"
+        Fixed some texture errors
+        Brightened up the map
+        General improvements
+    Updated pl_precipice_event_final
+        Lowered amount of entities on the map to prevent crashing
+        Adjusted some misaligned textures around the map
+        Simplified some detail for better performance
+        Combined some models for better performance
+        Removed some clutter to improve readability and fluid movement
+        Fixed some lighting bugs around the map
+        Added a one way door to left flank on last CP for Blu
+        Removed build limitations on both Shack (CP1) and the isolated balcony (final CP)
+        Adjusted health kits in last to be less favorable to defense
+    Updated koth_megalo
+        Fixed players building teleporters in RED spawn
+    Updated pl_bloodwater
+        Fixed exploit using the Minify spell at point A
+        Fixed being able to build as an Engineer in lava pits
+        Bosses no longer get stuck in lava pits
+        Reduced the chance of the Horseless Headless Horsemann and Monoculus spawning
+        Updated all railings to not collide with projectiles and bullets
+        Removed normal-sized skeleton spawn locations
+
+
+    Updated the Handsome Devil to fix an issue with the model 
+
+
+    Updated the timing of the Static Shock and Veno Shock unusual effects
+    Updated the Seared Sorcerer to add a missing style
+    Updated the Eye-See-You to add a missing style
+    Updated the Handsome Devil to fix an issue with the materials
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated koth_megalo
+        Fixed minor out of bounds teleporter exploit
+        Added pumpkin bombs
+    Updated pl_bloodwater
+        Fixed misaligned textures
+        Sealed displacement hole to the skybox near BLU spawn
+        Brightened up point A
+        Brightened up ambient lighting
+        Fixed pumpkin bombs not spawning at point C and D
+        Brightened up lighting behind point B
+
+Scream Fortress XII has arrived!
+
+    Featuring 4 new community maps: Megalo, Bloodwater, Hassle Castle, and Moldergrove
+    Added the Wicked Windfall Case
+        Contains 22 new community-created cosmetic items that make up the Wicked Windfall Collection
+        Has a chance to give one of 6 new community-created Halloween-restricted items as a bonus item
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added 19 new community-created Unusual effects
+        8 new effects for Unusual hats
+        11 new effects for Unusual taunts
+    Added the Scream Fortress XII War Paint Case
+        Contains 15 new community-created War Paints that make-up the Scream Fortress XII War Paint Collection
+        Has a chance to give a taunt Unusualifier as a bonus item
+    All players who launch the game will receive a Soul Gargoyle if they don't already have one
+        Grants access to Merasmissions and Halloween item transmutations
+        Tracks Merasmissions completed and souls collected
+    All Halloween Contracts have been reset, allowing them to be completed again
+    Added new Contracts for this year's featured community maps
+    Completing a Halloween Contract will give players a classic Halloween item and the chance for a Wicked Windfall Case or Scream Fortress XII War Paint Case
+    Continue last year's event by collecting the souls of dead players for your Soul Gargoyle by killing enemies, doing map objectives, or collecting the Soul Gargoyles that spawn in the maps
+    All cosmetic and taunt Cases will grant Halloween 2020 Unusual effects instead of their normal Unusual effects during the event. This does not include Crates.
+    Join Halloween matches by using the Special Events category in Casual
+    Scream Fortress XII runs through November 7th, 2020 
+
+General
+
+    Added support for Steam Text Filtering for persona names and chat. This is enabled by default.
+        You can update your settings in the Adv. Options dialog
+        You can also update your settings by opting into the Steam Lab
+    Updated The Cuban Bristle Crisis to add the smoke effect
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+Mannpower Update
+
+    Map Changes
+        ctf_hellfire and ctf_gorge
+            Flag return time increased from 15 to 30 seconds
+        ctf_thundermountain
+            Flag return time increased from 15 to 30 seconds
+            Removed a fence top ledge that snipers could exploit
+    Gameplay Changes
+        Flag carrier grapple movement speed reduced
+            Scout with no powerup or with Agility powerup – reduced to 0.8x regular grapple movement speed (down from regular grapple movement speed in previous version)
+            Scout with any other powerup - 0.65x normal grapple movement speed (no change from previous version)
+            Any other class without a powerup or with Agility powerup - reduced to 0.65x normal grapple movement speed (down from 0.8x in previous version)
+            Any other class with a powerup - reduced to 0.5x normal grapple movement speed (down from 0.65x in previous version)
+        Critical hit damage rules changed
+            Weapons that score critical hit boosts on airborne targets will no longer do so in Mannpower since being airborne is a far more important and commonly utilized movement style than in the base game
+            Melee weapons that score mini-crit damage no longer have their base Mannpower 1.3x damage boost
+        Medic
+            Free ride removed. Previously when healing a target, you’d be pulled along with them when they moved by grappling hook.
+            Reduced heal rate and ubercharge build rate when carrying a powerup or healing someone with a powerup
+                Medics carrying Haste or Agility are exempt from medic powerup checks
+                If medic has no powerup and target has no powerup – regular heal and uber build rate
+                If only one of the medic and the target has a powerup - half heal and uber build rate
+                If both medic and target have powerups - quarter heal and uber build rate
+            Removed overheal from targets carrying powerups
+        Heavy
+            Removed the jump up boost when grappling. You can still jump to disconnect the hook, but the Heavy no longer gets the height boost when doing so.
+        Soldier
+            Battalion’s Backup rage build rate reduced by 2.5x to counter the additional benefits of an extra 20hp and critical hit immunity when compared to the Buff Banner
+        Engineer
+            Carried buildings will now deploy instantly
+        Scout
+            Removed falling damage
+        Spy
+            Backstabs disallowed if you’re connected to an enemy by the grappling hook. This applies if you’re hooked into someone or if they’re hooked into you.
+            Knife deploy time is no longer instant when switching between weapons, even when carrying Agility
+            Conniver’s Kunai no longer considers the victim’s powerup boosted health when taking damage dealt as health
+        Haste buffs
+            Reload speed increased from 2x normal to 4x normal
+            Pyro flare gun re-fire rate increased from 2x normal to 5x normal
+        Vampire changes
+            Fixed a bug where the Vampire carrier wouldn’t receive health from damage dealt by an explosion that also caused self-damage
+            Increased blast weapon clip size 1.5x
+        Resistance changes
+            Vampire no longer gets a 25% boost to their health received on melee attacks against a player carrying resistance
+        Fixed bug where grapple would auto disconnect after a couple of seconds if the hook embedded in geometry behind clip volumes 
+    Game Balance Changes
+        When the game detects a skill imbalance between teams, select players will be moved between teams to address the imbalance
+        If a player is dominating the game for long enough (kills count is very high relative to the rest of the players in the game), they’ll enter a dominant state for a period of time. This state has these effects:
+            Marked for Death
+            Powerup modifications
+                Reflect – maximum health reduced 400 to 320. Reflect damage reduced from 80% to 50%
+                Vampire – damage resistance removed. No blast weapon clip size increase
+                Strength – game multiplier reduced from 2x to 1.4x
+                Regeneration – health regenerates at 70% of the regular rate
+                Haste – weapon firing rate increase reduced from 2x to 1.5x.Weapon reload speed increase reduced from 4x to 2x
+                Knockout – melee damage increase reduced from 1.9x to 1.4x
+                King – max health increase reduced from 100 to 20
+                Plague – damage resistance to infected players reduced from 50% to 20%
+                Precision
+                    Sniper rifle - Scope speed increase reduced from 2x from 1.5x. Shot charge speed increase reduced from 3x to 2x. Damage bonus reduced from 2x to1.5x
+                    Blast weapons - Regular blast radius falloff. No clip size increase
+                Resistance – damage resistance reduced from 50% to 35%
+            Server variables associated with this feature:
+                tf_powerup_mode_dominant_multiplier – the multiple over the server median that a player’s kill count needs to be in order to be determined dominant
+                tf_powerup_mode_killcount_timer_length – the time interval to wait between tests for dominant players
+
+
+    Fixed bsp-embedded models caching rules to allow for reloading the correct model when transitioning to a different map
+    Fixed a couple instances that were not correctly checking for anti-aliasing being disabled
+    Fixed the name of the Replica Titanium Tank 2020 medal
+    Updated The Flatliner to fix a problem when taunting
+    Updated the Hazard Headgear to fix a problem with the material
+    Updated the Crabe de Chapeau to add the smoke effect
+    Updated The Sophisticated Smoker
+        Fixed some clipping issues
+        Added the smoke effect
+        Updated the backpack image
+    Updated the Hypno-eyes
+        Added a style that was not included in the original release
+        Updated the equip_region
+
+
+    Added the Summer 2020 Cosmetic Case
+        Contains 22 new community-contributed items
+        Adds 4 new community-created Unusual effects
+    Fixed an issue where values computed from server bounded ConVars could be incorrect on the client and therefore possibly exploitable
+    Fixed Australium Medigun/Wrench items not dropping for the Mann vs. Machine rewards
+    Fixed the chat window not always being restored to the appropriate place
+    Fixed Competitive badges not displaying correctly
+    Increased the default caps_per_round for Mannpower mode
+    Updated the Watch Streams dialog to open the Twitch page
+    Updated cp_granary with a permanent Soldier statue
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Accounts that are unable to chat in matchmaking are now also restricted from sending voice chat
+    Fixed a bug where cosmetic items in the second and third equip slots would be un-equipped
+    Fixed matchmaking badges not displaying the correct tier in the scoreboard and other dialogs
+    Added matchmaking badge and time connected to the Report Player dialog
+    Updated the vote kick process to automatically vote Yes for anyone who hasn't already voted if the target for the vote leaves the server
+    Updated the Mute Player dialog to have the same information as the Report Player dialog
+    Updated item schema with community fixes from Andrés S. (rabscootle)
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+    
+    Added rate limit checks for in-game text chat
+    Accounts that are unable to chat in matchmaking can no longer update their in-game name while connected to the server
+    Fixed being able to update team name while in matchmaking games
+    Fixed seeing the RED team skin for the TF2VRH while on the BLU team
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Restricted certain new accounts from using chat in official matchmaking modes
+        Work is ongoing to mitigate the use of new and free accounts for abusive purposes
+    Added "Enable text chat" and "Enable voice chat" options to the top of the Advanced Options dialog to disable in-game text and voice chat
+    Updated the Report Player dialog to include more details so players can make informed decisions about who they're reporting
+    Fixed getting the "Incoming message..." quest HUD notification when you've already completed all available quests
+    Fixed the OnDestroyed output not getting fired when an object is destroyed by the Red-Tape Recorder
+    Updated The Telefragger Toque to fix swapped materials
+    Updated The TF2VRH headset to include on/off styles
+    Updated the PASS Time Federation medals to fix issues with them not drawing correctly
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Added a tribute to Rick May, voice of the Soldier
+    Fixed a client crash related to malformed custom spray files
+    Fixed an exploit where sentry guns could fire through thin walls
+    Fixed confirm dialog showing the error model for some items when using paint cans
+    Updated the Aim Assistant and Telefragger Toque to fix jigglebones issues
+    Updated the ConTracker font to fix missing characters in some languages
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed Heavy exploit related to infinite overheal
+    Updated localization files 
+
+
+    Fixed a server crash exploit
+    Updated localization files 
+
+
+    Fixed an exploit related to the Heavy being invisible
+    Fixed an LOD problem with the Citizen Cane
+    Fixed a materials problem with the Glittering Garland
+    Fixed the Mislaid Sweater hiding the hat
+    Added some tournament medals
+    Updated the localization files 
+
+
+    Updated Pebbles the Penguin to fix a problem with the Heavy's version of the model
+    Updated Discovision to fix a paint problem 
+
+
+Happy Smissmas 2019!
+
+    All players who play TF2 during the event will receive a Stuffed Stocking as a gift! Stockings contain goodies for good little Mercenaries.
+        Event runs through January 7th, 2020
+    Added the Winter 2019 Cosmetic Case
+        Contains 18 new community-contributed items
+        The Festivizer can be found as a bonus drop when opening the case
+    Added the Winter 2019 War Paint Case
+        Contains 10 new community-created War Paints that make-up the Winter 2019 Collection
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added 17 new community-created Unusual effects
+        11 new effects for Unusual hats
+        6 new effects for Unusual taunts
+    Mann Co. Store winter sale! 
+
+General
+
+    Updated several maps to fix localization issues
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Updated several maps to fix localization issues
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed seams in the Halloween skybox
+    Added European Bball League Season 3 tournament medals
+    Updated the localization files
+    Updated pl_precipice_event_final
+        Adjusted prop fade distances for improved performance near control point A and control point B
+        Adjusted flank route direction between control point C and control point D
+        Lowered the high-ground flank at control point A to make it accessible for Scouts
+        Changed the small health kits to medium sized near the cliff edge choke path
+    Updated koth_bagel_event
+        Fixed an instance where a player with incredibly unlucky timing could become trapped inside the underworld exit room
+
+Updated koth_slaughter_event
+
+    Fixed a server crash exploit with the Shooting Galleries
+
+    Updated pl_precipice_event_final
+
+    Fixed being able to build in BLU spawn in one very particular small spot
+    Fixed heal spell from the cauldron cart not always applying properly
+    Fixed being able to damage BLU through the spawn exit on the top balcony of BLU's main spawn before the round has begun
+
+
+    Updated the Accursed Unusual taunt effect to fix a problem with the color
+    Updated the equip_region for a couple of the Spooky Spoils cosmetic items
+    Updated/Added some tournament medals
+    Updated the localization files
+    Updated koth_slaughter_event
+        Fixed a spot where players could spam the Underworld exit effect
+        Fixed a sightline into the spawn rooms
+        Fixed players being able to perch on flood lights
+        Implemented additional prop fades to increase performance
+    Updated pl_precipice_event_final
+        Removed the right side path from BLU spawn near control point A to help BLU in keep momentum during coordinated pushes
+        BLU main spawn has been rearranged to outlet the BLU team to the left of the courtyard
+        Removed upper balcony for control point D on the RED team's side
+        Added additional cover near control point A and control point D to block long headshot sightlines
+        Redesigned RED spawn to support missing balcony level
+        Added a ramp inside the Cave to allow players to jump up onto the dropdown platform that leads to control point D
+        Fixed engineers being able to build in certain doorways
+        Moved the health cabinet in the neutral spawn closer to the exit doors
+        Fixed one-way doors closing too soon, trapping players
+        Fixed the cliff-side one way door not closing properly, leaving behind invisible collision
+        Added additional health and ammo pickups between control point A and control point C
+        Fixed several spots players shouldn't be able to reach
+        Extended spawn room triggers to better encapsulate the neutral forward spawn room
+        Made several shed rooftops non-buildable areas for engineers
+        Added more pumpkin bombs
+        Spells cast by the cauldron are now helpful for the BLU team. The cauldron will only cast the tornado, jump pad, and skeleton spell. Skeletons will target and attack RED team.
+        Fixed the cauldron spell audio not always playing correctly
+
+
+    Fixed contracts not counting TNT kills on Laughter as pumpkin kills
+    Fixed seams in the Halloween skybox
+    Updated model/materials for the Voodoo Vizier to fix LOD issues
+    Updated backpack image for the Pocket Halloween Boss
+    Updated the localization files
+    Updated koth_slaughter_event
+        Fixed players being able to survive and build in the crocodile pit
+        Fixed an issue with the conveyor in the Funhouse
+
+Scream Fortress XI has arrived!
+
+    Featuring 2 new community maps: Laughter and Precipice
+    Added the Spooky Spoils Case
+        Contains 22 new community-created cosmetic items that make-up the Spooky Spoils Collection
+        Has a chance to give one of 5 new community-created Halloween-restricted items as a bonus item
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added 20 new community-created Unusual effects
+        12 new effects for Unusual hats
+        8 new effects for Unusual taunts
+    All players who launch the game will receive a Soul Gargoyle if they don't already have one
+        Grants access to Merasmissions and Halloween item transmutations
+        Tracks Merasmissions completed and souls collected
+    All Halloween Contracts have been reset, allowing them to be completed again
+    Completing a Halloween Contract will give players a classic Halloween item and the chance for a Spooky Spoils Case
+    Continue last year's event by collecting the souls of dead players for your Soul Gargoyle by killing enemies, doing map objectives, or collecting the Soul Gargoyles that spawn in the maps
+    All cosmetic and taunt Cases will grant Halloween 2019 Unusual effects instead of their normal Unusual effects during the event. This does not include Crates.
+    Join Halloween matches by using the Special Events category in Casual
+    Scream Fortress XI runs through November 7th, 2019 
+
+General
+
+    Fixed an overheal bug related to players teleporting to the underworld on Halloween maps
+    Fixed being able to attack players with the Short Circuit during a truce
+    Fixed the Snack Attack not playing a timer sound while attached to buildings
+    Updated Carnival of Carnage to fix an area where Engineers could build outside of the world
+    Updated several maps to fix localization issues
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed an issue with saving navigation meshes when editing maps
+    Updated the localization files 
+
+
+    Fixed the Iron Lung hiding the Engineer's helmet
+    Fixed Scottish Resistance stickies not always being visible through walls
+    Fixed the Festive Sapper not playing a timer sound while attached to buildings
+    Updated/Added some tournament medals
+    Updated the Bottle Cap and the Shutterbug cosmetic items to fix styles that were missed when the items were originally added
+    Updated Twitch API to the current version
+    Updated the localization files 
+
+
+    Added the Summer 2019 Cosmetic Case
+        Contains 22 new community-contributed items
+    Added tournament medals
+    Fixed and exploit where stickybombs could not be destroyed or pushed by the enemy team
+    Fixed Medi-gun/Wrench items not dropping for the Mann vs. Machine rewards
+    Fixed not seeing the team-goal hints during Casual matches
+    Fixed a scale problem with the Brazil Fortress Halloween medals
+    Updated the localization files 
+
+
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed the datacenter display in matchmaking settings occasionally being blank
+    Fixed several client crashes
+    Updated/Added some tournament medals
+    Updated the localization files 
+
+
+    Fixed an exploit related to the Flamethrower shooting long distances
+    Fixed being able to build outside the map on Badwater
+    Fixed being able to build through gates on some maps
+    Updated/Added some tournament medals 
+
+
+    Fixed an issue causing matchmaking to fail for many users due to Steam network changes
+    Updated the localization files 
+
+
+    Improved how vote kicks work in matchmaking to reduce potential for abuse
+    Fixed a case where vote-kicked players could rejoin a match
+    Added Asian BBall Cup tournament medals
+    Updated model/materials for the Rasslabyxa Cup Helper medal
+    Updated RETF2 Retrospective finalist medals to be paintable
+    Updated some localization files 
+
+
+    Fixed the Exorcism effect not working for Wrangler kills
+    Fixed a rare case where players could appear to be in a match they could neither join nor abandon
+    Updated HUD with community fixes from CriticalFlaw
+    Added and updated in-game medals for community/tournament events
+    Updated the localization files 
+
+
+    Improved memory usage on OS X and Linux systems
+        This should reduce the occurrence of "Out of memory or address space" errors on high texture quality settings
+        In particular, drastically improved memory usage for Linux users using mesa prior to mesa 19.0
+    Added Respawn League AUS/NZ Highlander Season 2, AUS/NZ 4v4 Season 1, Asia Highlander Season 1, and Asia 4v4 Season 1 tournament medals
+    Added Eu Mixes Cup 1 tournament medals
+    Added KnightComp Season 1 tournament medals
+    Updated cp_snakewater_final1 to fix missing player clips
+    Updated the localization files 
+
+
+    Added NewbiDuo Cup Winter 2019 tournament medals
+    Added Streamer Cup Season 1 tournament medals
+    Updated the localization files
+    Updated cp_snakewater_final1
+        Fixed missing clip brush in RED kitchen
+        Fixed minor clipping issues
+
+
+    Updated cp_gullywash_final1 to fix func_rotating entities not working in the skybox
+    Updated some of the cosmetic items from the Winter 2018 Cosmetics Collection to fix missing styles 
+
+
+Happy Smissmas 2018!
+
+    All players who play TF2 during the event will receive a Stuffed Stocking as a gift! Stockings contain goodies for good little Mercenaries.
+        Event runs through January 7th, 2019
+    Added the Winter 2018 Cosmetic Case
+        Contains 18 new community-contributed items
+        The Festivizer can be found as a bonus drop when opening the case
+    Mann Co. Store winter sale! 
+
+General
+
+    Fixed func_rotating entity not working properly in maps like 2Fort and Gravelpit
+    Fixed Strange Filter: Brimstone not displaying the prefix in the weapon name
+    Fixed a Mann vs. Machine bug with giant robots reported by Justin G. (sigsegv)
+    Added LAN Downunder 2018 tournament medals
+    Added ETF2L 6v6 Season 31 and Highlander Season 17 tournament medals
+    Added Brazil Fortress Season 3 tournament medals
+    Added Russian Highlander Season 1 tournament medals
+    Added Sacred Scouts 6v6 tournament medals
+    Added AsiaFortress Cup Season 14 tournament medals
+    Added AsiaFortress LAN 2018 tournament medals
+    Updated the Starstorm Slumber unusual effect to fix a display problem
+    Updated the backpack image for Mr. Quackers
+    Updated the localization files
+    Updated pd_monster_bash
+        Fixed an out-of-bounds exploit in RED's courtyard
+    Updated pl_millstone_event
+        Fixed a spot where players could trap players with teleport exit
+        Fixed Headless Horseman getting stuck in B area house staircase
+    Updated cp_snakewater_final1
+        Fixed "splash bug" issues throughout the map
+        Fixed a lot of visual issues
+        Improved clipping and made movement smoother
+        Made fence near yard closed to projectiles
+
+
+    Fixed XP-earned text being truncated for some clients
+    Fixed some missing particles when running in DirectX8
+    Fixed the Athenian Attire not being paintable
+    Fixed the Electroshocked War Paint not using the correct color for the BLU team
+    Added server ConVar "sv_downloadlist_include_navfile" to control downloading .nav files to clients (disabled by default)
+    Added ESEA 6s Invite Season 29 and Season 30 tournament medals
+    Added Brazil Fortress 6v6 Season 1 and Season 2 tournament medals
+    Updated the LODs for the TFNew tournament medals
+    Updated the Roaring Rockets unusual taunt particle effect
+    Updated pl_rumble_event
+        Fixed bumper car head start not being awarded correctly to the winning team of the normal world
+        Fixed Merasmus announcing winner of the bumper car race twice
+        Fixed players sometimes getting stuck on closing doors
+        Added spawn locations for the collectable soul gargoyle in the normal world
+        Increased sound distance for the flying sawblades so they can be heard from farther away
+        Improved clipping in the underworld race area
+    Updated pl_millstone_event
+        Fixed an issue where players were able to trap Headless Horseman above the death pit
+    Updated pd_cursed_cove_event
+        Fixed missing materials
+    Updated koth_slasher
+        Fixed an inconsistent set of func_nobuilds at mid
+        Fixed a spot where Engineers could hide buildings in trees
+        Fixed players being able to build on top of the spawn rooms
+    Updated koth_bagel_event
+        Entering the underworld now puts players back to full health
+        Players will no longer fall off the platform if they enter the underworld while moving backwards or sideways
+        Added a couple pumpkin spawn locations in the underworld
+        Minor visual update to underworld exit
+
+
+    Updated the Roaring Rockets unusual taunt particle effect
+    Updated the equip_region for the Earbuds
+    Updated the models for the TFNew tournament medals to fix their broken LODs
+    Renamed Mister Sentry to Aim Assistant
+    Updated the localization files
+    Updated pl_fifthcurve_event
+        Fixed a bug where players could spam "escaped from underworld"
+    Updated koth_bagel_event
+        Fixed a projectile bug that was occurring in RED's vent room
+        Updated some propfades on the lightbulbs in RED's valley
+    Updated pl_rumble_event
+        Fixed an exploit related to using the tiny spell and building sentries inside a wall
+        Bumper cars are now placed in a random order in underworld, after main world has run out of time or ended by explosion
+        Fixed bumper car race instructional text not showing to all players
+        Fixed Merasmus sometimes using his round-beginning lines in the middle of the round
+    Updated koth_slasher
+        Fixed the clipping issues in the spawn yards and in BLU's mineshaft
+        Fixed a case where the control point is unlocked while Merasmus is hiding
+    Updated pd_monster_bash
+        Fixed a gap in the spiral stairs that players could slip through when using the tiny spell
+        Fixed a kill trigger not always killing players in the dungeon
+        Fixed players taking fall damage when passing through the pit to the dungeon
+    Updated pd_cursed_cove_event
+        Fixed projectiles colliding with the waves at the shore
+        Fixed projectiles colliding with the capzone mist effect in locker
+        Fixed players sometimes getting stuck when exiting the locker
+        Adjusted particles on the pickups
+        Increased music volume
+        Added sound to the ship moving through the town (Thanks Spipper)
+        Added sound to the zone closing in the locker
+        Optimization tweaks
+        Various small detail fixes
+
+The Insured Tank Update
+
+    Fixed a common crash related to the Panzer Pants taunt
+    Fixed competitive match history failing to load
+    Fixed an issue preventing some players from being able to activate Halloween Contracts 
+
+    Scream Fortress X has arrived!
+
+    Featuring 5 new community maps: Cauldron, Gravestone, Monster Bash, Slasher, and Cursed Cove
+    Added the Violet Vermin Case
+        Contains 20 new community-created cosmetic items that make-up the Violet Vermin Collection
+        Has a chance to give one of 4 community-created Halloween-restricted items as a bonus item
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added the Scream Fortress X War Paint Case
+        Contains 10 new community-created War Paints that make-up the Scream Fortress X War Paint Collection
+        Has a chance to give a taunt Unusualifier as a bonus item
+    Added two new official taunts to the Mann Co. Store
+        Taunt: Panzer Pants
+        Taunt: The Scooty Scoot
+    Added 17 new community-created Unusual effects
+        11 new effects for Unusual hats
+        6 new effects for Unusual taunts
+    Added 5 new Contracts for the featured maps
+        Completing a Halloween Contract will give players a classic Halloween item and the chance for a Violet Vermin Case or a Scream Fortress X War Paint Case
+    All players who launch the game will receive a Soul Gargoyle if they don't already have one
+        Grants access to Merasmissions and Halloween item transmutations
+        Tracks Merasmissions completed and souls collected
+    All Halloween Contracts have been reset, allowing them to be completed again
+    Continue last year's event by collecting the souls of dead players for your Soul Gargoyle by killing enemies, doing map objectives, or collecting the Soul Gargoyles that spawn in the maps
+    All cases will grant Halloween 2018 Unusual effects instead of their normal Unusual effects during the event
+    Join Halloween matches by using the Special Events category in Casual
+    Scream Fortress X runs through November 14th, 2018 
+
+General
+
+    Fixed stickybombs doing damage through walls and doors in some situations
+    Fixed a problem with client-side prediction on Halloween maps that use the bumper car mini-game
+    Added Tip of the Hats 2018 community medals
+    Added ozfortress Season 23 tournament medals
+    Added TFNew 6v6 Newbie Cup tournament medals
+    Added RGB 3 LAN tournament medals
+    Added United Dodgeball League Season 1 tournament medals
+    Updated the localization files 
+
+
+    Added LBTF2 6v6 Season 15 tournament medals
+    Added NewbieDuo Cup Summer 2018 tournament medals
+    Added Ultimate Ultiduo Season 2 tournament medals
+    Added Fresh Meat Prolander Cup Summer 2018 and Autumn 2018 tournament medals
+    Added ETF2L Highlander Season 15, 6v6 Season 30, and Highlander Season 16 tournament medals
+    Added Newbie Highlander Season 4 tournament medals
+    Added RGL.gg Season 4, Season 5, and One Day Prolander Cup tournament medals
+    Added PASS Time Federation Season 1 tournament medals
+    Added Chapelaria Highlander Season 1 tournament medals
+    Added Respawn League Highlander Season 1 tournament medals
+    Added Moscow LAN Summer 2018 tournament medals
+    Community request: player_hurt events are now visible to SourceTV clients
+    Updated the localization files 
+
+
+    Added UGC Highlander Season 24, Highlander Season 25, 6v6 Season 26, 6v6 Season 27, 4v4 Season 13, and 4v4 Season 14 tournament medals
+    Added TFCL 6v6 Season 4, Ultiduo Season 5, and Highlander Season 2 tournament medals
+    Added TF2Maps 72hr TF2Jam Summer Participant 2018 community medal
+    Added Insomnia 63 tournament medals
+    Added Essentials.TF monthly tournament medals
+    Updated the localization files 
+
+
+    Added NHBL Heavyweight Champion Season 7 tournament medal
+    Added TF2Maps 72hr Summer Jam 2018 community medal
+    Added Chapelaria Ultiduo Gladiator Season 2 tournament medals
+    Added Newbie Highlander Season 2 tournament medals
+    Added Newbie Prolander Season 3 tournament medals
+    Added Rally Call 2018 community medals
+    Fixed tooltips for Fabricator items being truncated on OS X and Linux clients 
+
+
+    Added tournament/community medals for HLMixes, Hydro.tf, Ready Steady Pan Season 4, and Blapature
+    Tweaked Competitive Mode MMR calculations
+        MMR mobility increased somewhat across the board
+        Players who have high game counts relative to the rest of the player base should see fewer adjustments of 1 or 0 MMR
+    Updated pl_enclosure_final to fix a displacement hole in stage two
+    Updated Test Run items such that the discount is not valid if the item is already on sale in the Mann Co. Store
+    Updated the models for The Frontier Djustice, The Rotation Sensation, and the Elf Esteem to fix display problems with unusual effects
+    Fixed some currencies not properly calculating the Test Run discount, which prevented being able to purchase the item
+    Updated the localization files 
+
+
+    Several fixes to address exploits and stability issues
+    Fixed server crash related to the CTriggerAddTFPlayerCondition map entity
+    Fixed client crash when playing Mann vs. Machine
+    Fixed client crash on exit
+    Fixed Scouts not being able to pick-up the Sandman's baseball
+    Fixed broken Unusual effects for the Exquisite Rack, the Stainless Pot, and the Universal Translator
+    Fixed broken Strange Filter store images for Brimstone, Maple Ridge Event, and Pit of Death
+    Updated r_screenoverlay command to accept '0' as well as 'off' to disable overlays. This fixes some community mods that were incorrectly expecting 0 to disable the overlay, resulting in unexpected behavior.
+    Added "Reset All Achievements" button to the Achievements dialog
+        A small number of achievements are based on player stats and will be awarded again when Team Fortress 2 is restarted unless the player stats are also reset
+        Resetting achievements will not allow you to receive achievement-based items multiple times
+    Players who consistently demonstrate a pattern of negative behavior in-game (based upon excessive reports from other players and several other factors) will now receive a temporary matchmaking ban
+    Added RGL.gg tournament medals
+    Added Copenhagen Games tournament medals
+    Added PURE League tournament medals
+    Added Beginnings 5 tournament medals
+    Added ozfortress Season 22 tournament medals 
+
+
+    Fixed a server crash related to Flamethrower particles
+    Fixed a client crash related to matchmaking parties
+    Fixed a client crash related to the ConVar tf_flamethrower_boxsize
+    Fixed a memory leak in the main menu
+    Fixed some languages having missing characters in the ConTracker menu
+    Fixed the voicemenu command being used to lag servers
+    Fixed a rendering issue with Unusual effects for the Antarctic Eyewear
+    Fixed some War Paint weapons not being valid trade-up items for the Civilian Stat Clock
+    Fixed an animation bug related to the Thermal Thruster and changing class while holstering it
+    Fixed matchmaking players being able to sit at the MOTD so they can't be kicked by players in the match. They will now show in the scoreboard on their assigned team and will be valid vote-kick targets by members of their team.
+    Updated the Autobalance system to skip asking/waiting for volunteers. Instead, it will go straight to switching candidates to balance the teams.
+    Updated model/materials for the Valhalla Helm to fix some clipping issues
+    Updated the localization files
+    Updated pl_enclosure_final
+        Fixed players being able to get stuck in closing dropdown door in stage 3
+        Fixed missing team filter for small resupply room in stage 3
+        Removed unnecessary env_wind entity messing with env_dustmote entities
+
+
+    Fixed players not being able to push the payload cart on some maps
+    Fixed a client crash related to the main menu
+    Fixed a client crash when exiting the game
+    Fixed not being able to pickup item_bonuspack entities that have not been assigned to a specific team
+    Added self-damage when using the Short Circuit's orb to attack an enemy at close range
+    Added the new Heavy and Pyro weapons to the list of weapons that can be found via random drops
+    Added The Heartfelt Hero medal for the Hugs.tf 2018 community event
+    Updated ctf_foundry
+        Organized powerup locations to be more consistent with other maps
+        Removed the crit powerup in the center of the map
+        Fixed the return times for dropped flags
+
+Matchmaking Changes
+
+    The initial load time into a match no longer counts against a player's abandon timer
+    Changed the timeout before a missing player is marked as having abandoned a competitive match to be three minutes from the first time a player disconnects from the server, rather than from the moment the match is formed
+    Queue times should now be significantly faster when dealing with large numbers of placement and recently-placed players in queue
+    Moved the Competitive MMR change notification so it no longer overlaps your rank
+    Fixed continuing to receive the prompt to rejoin a match after you have been dropped from said match
+    Fixed a case where players would receive a rank change in matches that dissolved due to abandon 
+
+
+General
+
+    Added a stomp animation to Pyro that plays when coming down after blasting off from the Thermal Thruster
+    Added HLPugs.tf tournament medals
+    Added Gette it Onne! tournament medals
+    Added TFCL tournament medals
+    Added Copenhagen Games tournament medals
+    Fixed Medics having an accelerated Ubercharge build-rate when healing full-health Snipers who are using The Razorback
+    Fixed being able to capture control points during setup time
+    Fixed the Golden Wrench not having an offset when using minimized viewmodels
+    Fixed the Private Maggot Muncher hiding the Soldier's hat when equipped
+    Fixed the Medic's auto-call feature not including enemy Spies disguised as the Medic's team
+    Fixed The Lugermorph not displaying when inspected in the backpack
+    Fixed unusual effects on the Brass Bucket rendering in the wrong spot
+    Fixed Mann vs. Machine late-join failing for parties of two or more
+    Fixed the Short Circuit orb not changing particle color after being deflected
+    Fixed the Short Circuit orb not being able to destroy rockets/grenades during the first 0.25 seconds of their lifetime
+    Updated models and materials for the Private Maggot Muncher
+    Updated the localization files 
+
+
+    Updated model/materials for the Starboard Crusader and added a second style
+    Added AsiaFortress Season 13 medals
+    Updated the localization files
+    Fixed Mann vs. Machine matches with open slots not receiving late-joiners
+    Fixed a server crash related to the Sniper Rifle
+    Fixed the "View promotional codes" button not showing for those users with promotional codes 
+
+
+Notes missed from Competitive Revamp update
+
+    The UI version has been bumped to 3. Any UI mods will need to be updated to work with the new UI changes. 
+
+
+    Added smoke to the Punk's Pomp
+    Made the Sky High Fly Guy and The Hot Case paintable
+    Fixed the Short Circuit still performing its old area-of-effect attack when firing
+    Fixed Scouts taking to the skies
+    Fixed thumbnail for ctf_foundry 
+
+
+    Fixed a server crash related to the Flamethrower
+    Fixed a client crash on the main menu
+    Fixed the Engineer not being able to build after rotating the placement hologram
+    Fixed the Scout's double-jump failing when attempted immediately after switching to any weapon (instead of just The Atomizer)
+    Updated model/materials for the Starboard Crusader 
+
+    Matchmaking Changes
+
+    Competitive Revamp
+        The matchmaking system used for Competitive Mode has been overhauled. Players will now be ranked using a model based on the Glicko rating system used in CS:GO.
+        The old 18 Competitive ranks have been consolidated into 13 new ranks. You can view the new ranks on the updated Competitive FAQ page (http://www.teamfortress.com/meetyourmatch/faq/)
+        Competitive ranks have been reset and players must win 10 matches to earn a new Competitive rank
+            Note: The previous system started everyone at Rank 1, and required - in most cases - considerable time for players to reach a rank that properly reflected their performance. The new system - by way of placement matches - considerably shortens the time required to reach an appropriate rank
+        The requirements to access Competitive Mode have changed: If you do not own a Competitive Matchmaking Pass, you must now be at least Casual level 3 in addition to being a Premium user and having a valid phone number associated with your account. 
+
+    Casual Improvements
+        Casual Mode now uses the Glicko skill rating system behind the scenes to better create balanced matches and group players by skill level
+        The maps listed in the Casual matchmaking screen are now sorted alphabetically
+        Added ctf_sawmill, ctf_well, cp_5gorge, ctf_2fort_invasion, and ctf_foundry to Casual Mode
+        Updated the match-end map voting to only vote on maps for the current game mode (if you are playing Payload, you will only vote on Payload maps) 
+
+    Queue While Playing
+        You can now queue for a match while already in a Casual or Boot Camp match
+        While queued and in-game, queue status will be shown in the top right 
+
+    Multi-Queue
+        You can now queue for multiple match types at the same time
+        Players can queue for all match types in parallel, but accepting a Competitive or Mann Up match will remove the player from other queues
+        Players who are in a party and not the party leader are now able to freely browse any of the matchmaking menus 
+
+
+Gameplay Changes
+
+    Flamethrowers
+        Flamethrowers were able to do full damage regardless of the spread of their flames, rewarding maximizing flame spread over focusing on a target. We've made changes geared toward preserving the current damage range of flamethrowers, but requiring better aim to do so.
+            Flame damage per second now ramps up based on density of flame encountered, up to 200%
+            Initial flame damage per second reduced by 50%, resulting in the max damage being unchanged
+
+    The Dragon's Fury
+        We are happy with the design of this weapon, and the playstyle it brings, but it should require tighter hit tolerances in order to reach the higher-end of the damage range
+        The size/radius of the fireball has been reduced by 25%
+        Bonus damage against a burning target now requires the fireball's center to make contact with the target's hitbox
+
+    The Gas Passer
+        We found a couple of issues with the Mann vs. Machine upgrade "Explode on Ignite" that resulted in it doing far more damage than intended. We've increased base damage to help offset some of the reduction in output these fixes bring about.
+        Changes to the "Explode On Ignite" upgrade in Mann vs. Machine
+            Damage from the upgrade no longer counts toward the refilling the item's charge meter
+            Fixed an issue where explosive damage could be reapplied for each target in the gas cloud
+            Fixed the triggering bot not taking explosion damage
+            Increased explosion damage to 350 (from 250)
+
+    The Axtinguisher
+        The slow deploy time -- which is there to help "pay" for the burst-damage this weapon is capable of -- hasn't been very well received, and we agree that it feels awkward. The design goal of this pass is to embrace the concept of a finishing-move weapon -- which requires planning, timing, and introduces opportunity for "combo" gameplay.
+        New design:
+            Attacks mini-crit and then extinguish burning targets
+                Receives a damage bonus based on the remaining duration of after-burn
+            Added: "Sketchek's Bequest: Killing blows on burning players grant a speed boost"
+            Base damage reduced by 33%
+            Holster speed 35% slower
+            No random critical hits
+
+    The Thermal Thruster
+        We erred on the side of conservative with the initial design -- as this item introduces a lot of mobility to a class that's typically lacked it -- but having watched players for a while, we think it is safe to make it easier for Pyros to switch back to their weapon
+            Holster time reduced to 0.8 seconds (from 1.1)
+
+    The Sydney Sleeper
+        Jarate is a powerful effect, and this weapon makes it too easy for one Sniper to substantially increase the damage potential of their team. And, unlike the Jarate jar, the infinite-range of the rifle means the Sniper can be far away from danger. These changes are designed to preserve the "Jarate Rifle" identity, but tone it down, add more reward for the Sniper's skill by allowing higher first-shot damage output, and offer a way for players who want to focus on providing area-of-effect Jarate to recharge their Jarate jar more quickly.
+            Fully-charged body shots and headshots no longer splash Jarate on players around the target
+            Reduced length of on-hit Jarate to 2 to 5 seconds (from 2 to 8 seconds)
+            Added: "Nature's Call: Scoped headshots always mini-crit and reduce the remaining cooldown of Jarate by 1 second"
+
+    The Short Circuit
+        The current design of zapping projectiles is interesting, but we're not happy with how much it can be done. While it would be easy to simply increase the metal cost (which we've done before), it would quickly push this weapon into the rarely, if ever, used category. Instead, we've changed the fundamental behavior of the weapon, such that it requires a bit more anticipation and positioning from the Engineer, has more skill depth, and increases the team support potential of this weapon.
+            Alt-fire attack changed to launch a medium-range, projectile-destroying energy ball. Requires 65 metal.
+
+    Pretty Boy's Pocket Pistol
+        We underestimated how much health high-skill players would be able to recover during combat.
+            Reduced maximum (close-range) per-hit heal amount to 3 (from 7)
+
+    The Panic Attack
+        The recent redesign left this weapon feeling a little weak close-in, so we've increased the damage potential at point-blank and close range.
+            Reduced worst-case shot pattern spread by 40%
+            Reduced damage penalty to -20% (from -30%)
+
+    The Atomizer
+        This is basically a bug fix. Players could perform a double-jump and then quickly switch to this item and eke out a third jump. The goal of the previous change was to require players to commit to this item in order to gain the extra jump.
+            The weapon must now be fully deployed before a triple jump can be performed
+
+
+Gameplay Fixes
+
+    Fixed the "-40% health from healers" penalty on The Fists of Steel (it wasn't active)
+    Fixed an issue with The Gloves of Running Urgently and Eviction Notice where players that were missing health would not be properly restored when touching a resupply cabinet
+    Fixed the Cow Mangler 5000's charged shot so that afterburn lasts 6 seconds (instead of 10)
+    Fixed a case where Engineer buildings could be placed such that players would become stuck when exiting a teleporter (a.k.a. "teleporter trap")
+    Fixed Flamethrower particles sometimes failing to draw on the client
+    Fixed Flamethrower flames not colliding with tf_generic_bomb entities
+    Fixed being able to fire flames and then quickly switch teams to attack teammates
+    Fixed The Loose Cannon continuing to play the priming sound if the weapon is holstered while priming
+    Fixed projectiles from The Pomson 6000 and The Righteous Bison pushing players around
+    Fixed the Razorback shields not being preserved across round restarts
+    Fixed the Dragon's Fury not giving health when attacking an enemy under the effects of Mad Milk
+    Fixed being able to load the Beggar's Bazooka with rockets and then spam the inspect key to hold the loaded rockets until ready to fire them
+    Fixed the Heavy being able to attack with secondary and melee weapons while stunned
+    Fixed being able to collect organs with the Vita-Saw during a truce
+    Fixed not being Marked-for-Death when doing a melee attack while under the effects of Crit-A-Cola
+    Lag compensation system will now reliably restore pose parameters responsible for animation layering
+        This makes server-side hitboxes for lag compensated players better match client-side rendered models
+    Fixed stickybombs sometimes blocking explosive damage from other stickybombs
+    Fixed The Back Scatter not mini-crit'ing when the Scout was in the air and behind their target
+    Fixed the resistance-piercing property on The Enforcer not working against some items or effects (Wrangler shields, Battalion's BackUp, Fists of Steel, Spy invisibility passive resistance, The Dead Ringer, Brass Beast and Natascha)
+    Fixed The Sandman and The Wrap Assassin projectiles colliding with invisible objects in team spawn rooms
+    Fixed player movement speed sometimes being faster than intended while under the effect of a movement stun (i.e. Natascha, The Sandman's ranged attack, Bonk! Atomic Punch) 
+
+
+General
+
+    Added the Blue Moon Cosmetic Case and Blue Moon Cosmetic Key
+        New community cosmetics case with 19 items
+    Reduced the base price of the Competitive Mode Pass from $19.99 USD to $9.99 USD and left it on sale for 50% off the new base price
+    Added The Dragon's Fury and The Hot Hand to the list of weapons used when generating Killstreak Kits in Mann vs. Machine
+    The type of badge shown on the main menu can now be changed by clicking the gear button near the badge
+    The in-game action buttons (Call a vote, Request a coach, etc.) have been moved to the bottom center of the main menu
+    Sped up the main menu screen transitions. Controlled via the ConVar tf_dashboard_slide_time.
+    Party members will now have a status indicator on their Steam avatar when they are offline
+    Improved Steam rich presence integration based on the player's current status
+    Improved UI when certain match types, such as Mann vs. Machine, are unavailable for maintenance
+    Fixed Squad Surplus Vouchers only being usable by the party leader in Mann vs. Machine
+    Fixed the console, server browser and options menus sometimes going behind the main menu and becoming unclickable
+    Fixed a client crash related to the cycling ads in the main menu
+    Fixed a bug related to the ConTracker not displaying the correct number of earned contract points
+    Fixed not being able to move if you opened the ConTracker menu while dead and closed it after you respawned
+    Fixed Sniper ragdolls not displaying the correct state for the Razorback when the Sniper is killed (drawing when it should be hidden and vice-versa)
+    Fixed the match-end map vote menu drawing if you disconnect from a server during a vote and then connect to a new server
+    Fixed not using the initial observer point when first connecting to a Casual or Competitive server
+    Fixed not being able to spectate observer points or your own buildings in Casual Mode
+    Fixed not being able to inspect the Pain Train in-game
+    Fixed a visual artifact when inspecting the Panic Attack
+    Fixed The Thermal Thruster launch effects only being visible to the wearer
+    Fixed the Heavy fists not showing the Killstreak sheen
+    Fixed the Yeti Smash taunt not removing the Yeti prop if the taunt is ended before the animation is complete
+    Fixed Mann vs. Machine robots sometimes using human voices instead of their robot voices
+    Fixed Festivized items ignoring any other quality for their name (i.e. "Collector's")
+    Fixed Festivized Australium weapons not using the correct skins for players on the BLU team
+    Fixed Festivized Holy Mackerels, Soda Poppers, and Wingers not drawing the festive lights for the BLU team
+    Fixed the Steam Community Market icons for several Festivized weapons
+    Fixed training bots suiciding in the respawn room
+    Fixed the Prinny Hat and Prinny Pouch not displaying their painted areas when painted
+    Fixed The Hot Hand being hidden when the Pyro taunts
+    Fixed the Deflect Projectiles strange part not counting deflections
+    Fixed the Engineer's PDA not always honoring the "Use minimized viewmodels" option
+    Fixed missing display attribute for the Rescue Ranger (client display issue only)
+    Fixed seeing "Red Rock Roscoe War Paint" as a valid tool for all items in the context menu
+    Fixed the Community Sparkle particle effect not drawing on the viewmodel for players with Community and Self-Made weapons
+    Fixed the Wrangler's death notice icon being clipped
+    Fixed the Overtime label not being centered under the team status HUD
+    Fixed the Sap Auteur achievement not working with all types of sappers
+    Fixed the Krazy Ivan achievement not requiring the victim to be underwater
+    Added RGB sliders for Combat Text in the Advanced Options screen
+    Added a unique particle effect whenever a player performs a "Stomp" attack on another player with the Mantreads or The Thermal Thruster
+    Added the BLU skin to the Neo Tokyo War Paint
+    Added the ozfortress Season 21 tournament medals
+    Added the National Heavy Boxing League tournament medals
+    Added ETF2L Highlander Season 14 and 6v6 Season 29 tournament medals
+    Added the Ultimate Ultiduo tournament medals
+    Added RGL.gg Pick Ban Prolander Participant Season 2 tournament medal
+    Added the RGL.gg One Day Prolander Cup tournament medals
+    Added the Palaise tournament medals
+    Added the Newbie Prolander Cup tournament medals
+    Added the ESA Rewind II tournament medals
+    Added the Florida LAN 2018 community medals
+    Added the Journey to the East community medals
+    Added the Canteen Crasher community medals
+    Updated the Harvest Moon, Dead Presidents, and Circling Peace Sign unusual effects to fix display problems
+    Updated the autobalance feature to more quickly respond to team imbalances
+        Will select the best candidates to balance the teams then ask the candidates for volunteers
+        If no volunteers are found, candidates will be switched when they die
+        If no candidates die within a reasonable period of time, candidates will be forcibly switched to the other team
+    Updated past Saxxy and Memory Maker items to be Strange
+    Updated the Huntsman contract to give 5 points instead of 4 on the Expert objective to fix not being able to fully complete the contract
+    Updated The Jag to fix a problem with the Isotope unusual effect
+    Updated the team status HUD to be enabled by default when playing on Community servers (for game modes other than Mann vs. Machine)
+        Can be toggled via the Adv. Options menu
+    Updated the Thermal Thruster status icon in the HUD to match the actual model
+    Updated Titanium Tank Participant Medal 2017 so it can be used with name/description tags
+    Updated the description for the Skullpluggery achievement to clarify what needs to be done
+    Updated the equip_region for the Wally Pocket
+    Updated models/materials for The Patriot Peak, The Crit Cloak, and Special Snowflake 2016
+    Updated the localization files
+    Added a bot navigation file for ctf_turbine
+    Updated pl_badwater
+        Fixed a few cases where Pyros could shoot through spawn doors
+    Updated cp_dustbowl
+        Fixed Pyros shooting through the stage 3 doors
+        Updated some entities that were disabled but shouldn't have been (func_nobuilds, soundscapes, powerlines in the 3dskybox)
+    Updated ctf_foundry
+        Added func_noclip instances to the base areas for both BLU and RED to prevent nasty sentry locations
+    Updated cp_mercenarypark
+        Fixed RED being able to shoot through the roof of BLU's starting spawn
+        Changes to control point C
+            BLU's spawn time has been slightly lowered
+            The upper-mid route window now has a small opening for attackers to use
+            Players can no longer build on the very top of the crate stack overlooking the control point
+            Increased cover next to the control point
+            Increased the size of the metal supply next to the cover stack
+            Added a vent route that exits behind the new cover
+            Bullets no longer go through the chain fence wall at the ramp connecting lower and upper
+    Community requests
+        Fixed the Start Disabled logic in the func_nobuild entity
+        Added OnEat, OnEatRed, and OnEatBlue outputs and filter support in the func_croc entity
+        Added ConVar mp_tournament_prevent_team_switch_on_readyup (default 1) to prevent team switching on ready-up when using tournament mode
+
+
+Missed note from a previous update:
+
+    Fixed security issue reported by 'Kristian N. (!AvastAntiPony 9445)' 
+
+
+    Ended the Jungle Inferno Campaign
+    Added a contracts-only pass to allow players who did not participate in the Jungle Inferno Campaign to access the Jungle Inferno contracts. This pass does not grant campaign-specific perks such as the enhanced Casual Badge. 
+
+
+    Fixed not being able to apply the Civilian Stat Clock to Civilian-grade weapons 
+
+
+    Fixed Festivize Woodsy Widowmaker not drawing the lights
+    Fixed the main menu being muted if clients disconnect from a server while in freezecam
+    Updated festivized items to use "Festivized" in the name instead of "Festive"
+        This will help disinguish the original Festive weapons from weapons that have had a Festivizer applied to them
+    Updated Strangifiers so they can no longer be applied to War Paint items
+    Updated the equip_regions for the The Koala Compact, Pocket Saxton, and Pocket Yeti 
+
+Missed note from the Smissmas update:
+
+    Australium weapons can now be Festivized 
+
+
+    Fixed missing War Paint icons in the Steam Community Market and Steam Inventory
+    Fixed The Hot Hand not displaying the item level in its description
+    Fixed Steam Workshop file uploads applying filesize limits before compression, rather than after
+    Updated materials for the Dovetailed War Paint to fix a problem with the alpha channel
+    Updated materials/models for The Snowmann and The Nuke
+    Updated the localization files 
+
+
+    Fixed missing sounds for the new taunts
+    Fixed a bug that prevented already-Festivized weapons from drawing their lights
+    Updated materials/model for the Blast Blocker
+    Updated the Heals for Reals medals so they can be painted 
+
+    Happy Smissmas 2017!
+
+        All players who play TF2 during the event will receive a Stuffed Stocking as a gift! Stockings contain goodies for good little Mercenaries.
+            Event runs through January 10th, 2018
+        Added the Winter 2017 War Paint Case
+            Contains 15 new community-contributed War Paints
+            Randomly dropped for players who have activated a Jungle Inferno Campaign Pass
+        Added the Winter 2017 Cosmetic Case
+            Contains 20 new community-contributed items
+            The Festivizer can be found as a bonus drop when opening the case
+        Added 6 new community-contributed taunts to the Mann Co. Store
+            Taunt: The Skating Scorcher
+            Taunt: The Bunnyhopper
+            Taunt: Runner's Rhythm
+            Taunt: Luxury Lounge
+            Taunt: Surgeon's Squeezebox
+            Taunt: The Trackman's Touchdown
+        Expanded the list of weapons that can be Festivized!
+            Ubersaw, Dragon's Fury, Amputator, Air Strike, Back Scratcher, Scotsman's Skullcutter, Bazaar Bargain, Black Box, Claidheamh Mòr, Crusader's Crossbow, Degreaser, Loose Cannon, Persian Persuader, Detonator, Brass Beast, Holy Mackerel, Loch-n-Load, Powerjack, Iron Bomber, Reserve Shooter, Disciplinary Action, Family Business, Shahanshah, Scorch Shot, Shortstop, Soda Popper, Rescue Ranger, Tomislav, Panic Attack, Winger
+        Mann Co. Store winter sale! 
+
+General
+
+    War Paints can now be used for Mann Co. Trade-Ups
+    Fixed a rendering issue with the Misty Skull unusual effect
+    Fixed a case where it was possible to use the Thermal Thruster twice in one launch
+    Fixed the inspect animation for the Shortstop
+    Fixed the Festive Sandvich not showing the bite mark when eaten
+    Increased the maximum number of backpack slots to 3000 (from 2500)
+    Added the UGC Highlander Season 21, Highlander Season 22, Highlander Season 23, 6v6 Season 23, 6v6 Season 24, 6v6 Season 25, 4v4 Season 10, 4v4 Season 11, and 4v4 Season 12 tournament medals
+    Added Ready Steady Pan Season 3 tournament medals
+    Updated cp_mercenarypark
+        Added a forward spawn for BLU when attacking the final control point
+        Added a connecting stairwell to the mid-structure of the final control point
+        Fixed area portal rendering issues between the first and second control points
+    Updated pd_watergate
+        Respawn times of the teams will change dynamically based on the difference in scores. This should help balance any extreme differences in the team skills/scores.
+            <50% difference in scores: 8s for leading team, 4s for trailing
+            >50% difference in scores: 12s for leading team, 0s for trailing
+            Equal scores: 6s for each team
+        Relocated the player beer pickup counter on the HUD to the lower left, but made it slightly larger
+        Updated the soundscape to have more alien-y sounds in the main areas
+        Adjusted detail in the center and spawn rooms
+        Adjusted clipping around the map 
+
+
+    Fixed a client crash related to viewing notifications
+    Fixed being able to interrupt taunts using the ConTracker commands
+    Fixed a bug with the Medi Gun not staying attached to players
+    Fixed a bug with the Backburner using its owner's angle to determine whether the attack is behind the victim
+    Fixed a rendering issue with the Spectral Swirl unusual effect
+    Fixed not being able to fire the Dragon's Fury in some areas (e.g. the control point on Nucleus)
+    Fixed not being able to light Huntsman arrows with the Dragon's Fury
+    Fixed Dragon's Fury projectiles not fizzling when hitting water
+    Fixed not being able to detonate stickybombs when switching to melee with secondary attack held down
+    Fixed the charge sound for the Stickybomb Launcher not stopping if the player switches weapons while charging
+    Fixed Quick-Fix Medics not properly following/mirroring the Pyro after launching with the Thermal Thruster
+    Fixed being able to shoot flares through objects like setup gates
+    Fixed the Pretty Boy's Pocket Pistol always giving 7hp per-hit
+    Fixed the Winger not counting towards the Scout achievement "Gun Down"
+    Fixed the Festive Sandvich not counting towards the Heavy achievement "Konspicuous Konsumption"
+    Fixed the Rescue Ranger not counting towards the Engineer achievement "Texas Two-Step"
+    Fixed the Genuine version of the Flying Guillotine having no taunt
+    Updated the Vita-Saw so victims spawn random internal organs on hit
+    Updated the Atomizer damage penalty vs players to -15% (from -25%)
+    Updated the party system so invites are shown to all party members
+    Updated the Thermal Thruster stomp damage on other players to be 3x the base fall damage - not the reduced fall damage of the owner
+    Updated the "With Friends Like these..." achievement to check for five friends instead of seven
+    Added the Heals for Reals 2017 community medals
+    Added the "Philanthropist's Indulgence" community medal for Random Acts of TF2
+    Added the "Spectral Snowflake" community medal for the Nightmare Before Smissmas 2017 community showcase 
+
+
+    Added the Chapelaria 6v6 Season 3 tournament medals
+    Contract loaner items no longer have an expiration date
+    Players viewing their ConTracker can no longer move or attack
+    Fixed the main menu not updating its layout after a resolution change
+    Fixed the Engineer's ConTracker animation
+    Fixed the Medic, Sniper, and Engineer not un-hiding their weapons at the end of the ConTracker animation
+    Fixed item collections sometimes incorrectly marking items as owned
+    Fixed rendering issues with the Infernal Flames, Infernal Smoke, Cloudy Moon, It's A Secret To Everybody, Ancient Eldritch, Eldritch Flame, and Death by Disco unusual effects
+    Updated the materials for Mandrew's Munificent Mug 
+
+
+    Added Jingle Jam 2017 community medals
+    Due to fraudulent use, temporarily untradeable giveaway gifts (e.g. Pallet of Crates, Secret Saxtons, key gifts) cannot be used until their tradability restriction has expired 
+
+
+    Fixed the scoreboard not displaying the proper images for Jungle Inferno Campaign Pass owners
+    Fixed a Pyro animation bug related to jumping
+    Fixed the Spy-cicle not giving the Spy fire immunity
+    Fixed the animation for The Second Banana plate
+    Fixed a Scout bug where mini-crits were granted to weapons other than The Atomizer while jumping
+    Added the Titanium Tank Participant Medal
+    Updated the Mann Co. Store to support the new foreign currencies added to Steam
+    Updated the localization files
+    Updated pl_enclosure_final
+        Fixed a buildable area in BLU spawn for stage 1
+        Updated materials for foliage props
+    Updated plr_bananabay
+        The train will now pass at its maximum frequency after both payloads make it up the large hill
+        Fixed players getting pushed into the underwater tunnel and ceiling over right spawn exit
+        Fixed spawn gates trapping enemy players
+        Amplified train engine sound
+        Reworked left spawn exit
+        Added small barrier near final cap
+        Improved performance in some areas
+        Reduced push force near outer rocks
+    Updated cp_mossrock
+        Fixed small area where Engineers could build in initial BLU spawn
+        Fixed area where you could fall in the pit and not die
+        Fixed cases where you could block the train without dying
+        The train now doesn't kill you if your toe touches it
+        Optimized FPS around the last point. Should be significantly better.
+        Brightened the underside of last point slightly
+        Improved clipping around the ramp to last point
+        Fixed a case where your view would glitch out on the sign near cap A
+
+
+    Fixed a bug related to The Fortified Compound and lighting arrows
+    Updated the RGL.gg Pick/Ban Prolander Participant tournament medal so it can be painted
+    Updated the localization files 
+
+
+    Fixed an exploit where players were getting out of bumper-car mode and ghost mode on Halloween maps
+    Fixed a rare client crash related to community server mods
+    Fixed not seeing the new flamethrower effects on some machines
+    Fixed not being able to jump after zooming with The Classic
+    Fixed the bite bodygroup for The Second Banana
+    Fixed The Rescue Ranger not drawing its attached screen properly
+    Fixed The Saxton not cloaking properly
+    Fixed a Pyro melee animation bug
+    Fixed a client hitch related to the backpack
+    Added new drop plates for The Fishcake, The Dalokohs Bar, and The Buffalo Steak Sandvich
+    Updated the Taunt Unusualifier 'Inspect' screen to display the unusual effects it will roll against when used
+    Updated the localization files 
+
+
+    Fixed a client crash related to the Mann Co. Store
+    Fixed server crash related to the ConTracker
+    War Paints directly purchased with Blood Money in the Mercenary Park Gift Shop and the Dragon Slayer come as Factory New again
+        Existing War Paints and weapons affected by yesterday's change will be fixed-up in the coming days
+    Fixed the bite bodygroup for The Fishcake and The Dalokohs Bar
+    Fixed the Festive Jag not drawing the lights
+    Fixed a bug related to the Razorback and touching a resupply closet or respawning
+    Fixed the Mantreads description for reduced airblast vulnerability
+    Fixed bots constantly respawning during Training mode
+    Fixed bots constantly respawning when tf_bot_force_class is set
+    Fixed a case where bots would constantly respawn if tf_bot_spawn_use_preset_roster was disabled
+    Added tf_bot_reevaluate_class_in_spawnroom convar to allow servers to disable bot reselecting their class while in spawn rooms
+    Fixed a bug with the Phlogistinator's attack distance so it matches the other flamethrowers
+    Fixed the War Paint icons in the Steam Community Market
+        Known issue: War Paints still show as blank and with zero quantity in search results
+    Fixed a bug related to the Medi Gun overheal upgrade in Mann vs. Machine
+    War Paints now have individual listings on the Steam Community Market
+    Outgoing party invites now get a notification panel
+    Updated cp_badlands
+        Disabled collision on a bunch of props (mainly lights/lamps)
+        Reduced attackers' spawn advantage by 1 second when working on final control point
+        Upgraded the small ammo pack to medium in the yard (on the porch)
+
+
+    Fixed an issue with how Flamethrowers were determining range after recent fixes to close-range hit detection
+    Updated the Taunt Unusualifier to draw from a pool of previous years' Halloween Unusual effects during the Scream Fortress IX event
+    Updated War Paints purchased from the Mercenary Park Gift Shop so they use all wear levels 
+
+
+    Fixed a client crash related to weapons with effect meters
+    Fixed a bug with the main menu sometimes displaying two character images at the same time
+    Fixed the recharge rate for the Fishcake
+    Fixed being able to buy airblast upgrades for the Phlogistinator in Mann vs. Machine mode
+    Fixed flamethrowers not damaging buildings at close distance
+    Fixed a bug related to the Dragon's Fury projectiles not hitting enemies
+    Changed The Gunslinger contract objective from "Get a kill with a sentry" to "Get a kill with a mini-sentry"
+    Reduced the number of times "Get 5 kills with The Back Scatter in a single life" needs to be scored to 3
+    Updated pl_badwater to improve hit detection around some of the staircases 
+
+
+Notes missed from the previous update:
+
+    Fixed the new airblast not honoring airblast vulnerability modifiers on Mann vs. Machine bots
+    Fixed the new airblast not benefiting from the airblast force upgrade in Mann vs. Machine
+    Fixed The Mantreads not properly granting airblast resistance 
+
+
+    Updated the Case Global Unusual Effects to draw from a pool of previous years' Halloween Unusual effects during the Scream Fortress IX event. This applies to all cosmetic cases.
+    Fixed all classes doing 3x damage when landing on enemies
+    Fixed the Flare Contract Bonus Objective requiring mini-crit kills instead of crit kills
+    Made it easier to score "defend an objective" style Contract objectives
+    Lowered the requirements for the Amputator Contract's bonus objectives
+    Fixed a case where players standing directly in front of the Pyro would not get burned
+    Fixed a bug related to the Medi Gun and changing class/loadout while being healed
+    Updated Mann vs. Machine
+        Removed the "Faster recharge rate" upgrades from The Dragon's Fury
+        Fixed the missing "Increased Airblast Push Force" upgrade on The Dragon's Fury
+
+
+    Scream Fortress IX has arrived!
+        Play your favorite classic Scream Fortress maps!
+        Free Halloween contracts and rewards added to the ConTracker!
+        Event runs through November 8, 2017
+        Updated Brimstone
+            Players now crit and healthboost when exiting the Hell area instead of just ubercharge
+            Increased slightly RED team respawn time on the last area
+            Fixed the coffin music playing into the next round from previous one
+            Fixed Monoculus sometimes getting stuck to certain locations
+            Fixed players sometimes getting stuck to other players in Hell area
+            Adjusted preferred nav-path for Merasmus to prevent him going into RED final base
+    Fixed The Thermal Thruster not doing 3x damage when landing on enemies
+    The Thermal Thruster no longer fully stuns mini-bosses in Mann vs. Machine mode
+    Fixed an LOD bug with The Holiday Punch
+    Updated model/materials for The War Eagle 
+
+
+    Fixed the firing speed for the Pretty Boy's Pocket Pistol (now faster)
+    Fixed a client/server crash related to contracts
+    Fixed a server crash related to taunting
+    Updated The Dragon's Fury such that extinguishing a teammate will return 20 health to the Pyro, matching other flamethrowers
+    Abandon/disconnect dialogs now show controller hint icons when Steam Controller is active
+    Removed trade restrictions from the Prinny items 
+
+
+    Added a Steam Workshop tag for War Paint submissions
+    Updated the description for The Gas Passer
+    Updated The Ubersaw to support the Cool, Hot, and Isotope Unusual effects
+    Updated the models/materials for The Nuke, The Snowmann, and The Fireman's Essentials
+    Updated the following Contracts:
+        Reduced the number of times the bonus objectives for the Thermal Thruster Contract need to be completed
+        Reduced the number of times "Defend the control point" objectives need to be completed
+    Fixed The Loose Cannon not being able to Double Donk
+    Fixed the afterburn duration for The Huo-Long Heater, The Sharpened Volcano Fragment, The Huntsman, and The Cow Mangler
+    Fixed the charge meters for The Phlogistinator and The Gas Passer overlapping in the HUD
+    Fixed the charge meter not recharging for The Fishcake and The Robo-Sandvich
+    Fixed The Fishcake not honoring the viewmodel minmode setting
+    Fixed The Festive Black Box not working for Black Box Contracts
+    Fixed the charge meter for The Sandvich not resetting to 100% when the player picks up a health kit
+    Fixed the 2nd objective for the Brass Beast Contract
+    Fixed the HUD prompt for a movable building so it shows the proper Steam Controller button text
+    Fixed party invite and join requests being inconsistent with five or more players in the group
+    Fixed the party invite mode setting not saving when exiting the game
+    Fixed party invite mode and ignore party invites settings not always working as expected
+    Fixed a case were a party invite or join request would reappear after being acted upon 
+
+
+    Fixed a client crash related to the Dragon's Fury
+    Fixed showing only a few weapons instead of the full set when redeeming a War Paint
+    Fixed an exploit related to the Heavy's health and the G.R.U.
+    Fixed contract objectives related to the Direct Hit not registering
+    Fixed contract objectives related to sentries not registering
+    Fixed War Paints and weapons that came out of campaign cases not displaying the correct rarity
+    Fixed being unable to turn-in one of the bonus objectives for the Medic contract
+    Fixed players being able to use the Thermal Thruster during the freeze period at the beginning of the round
+    Updated koth_lazarus
+        Fixed an issue with map-specific sprites not loading
+    Updated pl_enclosure_final
+        Fixed various errors related to textures
+    Updated cp_mercenarypark
+        Fixed enemy players being able to enter opposing spawn rooms
+        Fixed areas near cap A and cap B where Engineers could build in inaccessible areas
+        Fixed spawn room doors sometimes becoming blocked
+    Updated Steam Controller support
+        Game controllers which are attached but left idle no longer cause the game to assume that Steam Controller input is desired.
+        Reverted configuration change which caused some non-Steam Controller devices to default to using Steam Controller configuration. Users can re-enable this via the Steam Big Picture UI if desired.(Conversely, players who prefer the legacy gamepad mode, should ensure this setting is not enabled.)
+
+
+    Fixed a client stutter related to the Friends panel in the main menu 
+
+
+    Fixed not being able to redeem War Paints
+    Fixed War Paints not displaying properly in the backpack
+    Fixed a bug where the first shot fired from pistols was off-center
+    Fixed the ConTracker UI not working properly in DirectX 8
+    Fixed being able to select a style for the ConTracker in the loadout screen
+    Fixed not being able to use the Thermal Thruster after taunting with it 
+
+    The Jungle Inferno Update is live!
+
+    Additional information available on the website (http://www.teamfortress.com/jungleinferno/)
+    5 featured community maps: Mossrock, Lazarus, Brazil, Enclosure, and Banana Bay
+    1 new official map: Mercenary Park
+    5 new community taunts: The Dueling Banjo, The Jumping Jack, The Soviet Strongarm, The Russian Arms Race, and The Headcase
+    2 new official taunts: Yeti Punch and Yeti Smash
+    2 community cosmetic cases with 20 items each
+    2 new War Paint collections made up of community-made War Paints and official War Paints
+    2 new War Paint collections filled with classic weapon skins being brought back for another tour
+    4 new Pyro items: The Dragon's Fury, The Thermal Thruster (with a new kill taunt: The Gas Blast), The Gas Passer, and the Hot Hand
+    1 new Heavy item: The Second Banana
+    Free contracts to earn the new Pyro and Heavy items
+    36 campaign contracts
+    Mercenary Park Gift Shop to select your campaign contract rewards
+    Equippable ConTracker to customize and track your campaign experience 
+
+General
+
+    Significant weapon and class balance improvements (see Gameplay Changes section below for full details)
+    Increased the maximum number of backpack slots to 2500 (from 2000)
+    The default voice codec now defaults to Steam Voice
+        Steam Voice is now using Opus audio at a higher bitrate than the default CELT codec
+        Added a new vaudio_celt_high option for sv_voicecodec, allowing community servers to opt-in to higher bitrate voice chat
+    Fixed the Engineer being able to store the Gunslinger's melee crit for a future melee attack
+    Fixed a bug where the ammo from a picked up weapon could exceed the player's maximum ammo allowed
+    Fixed a bug where the dispenser would use different bounds checks for distributing ammo and health
+    Fixed a bug where the player model would not play the attack animation for some weapons that fire bullets
+    Fixed the Bottle, the Scottish Handshake, and the Neon Annihilator not having their models break on critical hits
+    Fixed some of the Heavy's edible secondary items not having the model update when the item is eaten
+    Fixed a case where players could have multiple weapons visible at the same time
+    Fixed some outdated tips
+    Mannpower Mode
+        Knockout powerup now collects health pack health without subtracting their health bonus. Results in Knockout carriers collecting more health from each health kit.
+        Resistance powerup now blocks backstabs
+    Fixed Engineers using the Eureka Effect to teleport out of hell on Halloween maps
+    Fixed the announcer sometimes saying "The tank is halfway through!" when a tank first spawns in Mann vs. Machine mode
+    Updated the Pallet of Crates to only drop crates and not cases
+    Players that have their movement slowed for any reason now have a status icon appear on their HUD (in the same area that displays other player effects, such as Marked-For-Death)
+    Added first-person inspect animations to all weapons
+    Added a disconnect sound when the Medic stops healing their target
+    Added new sounds for the Family Business, the Winger, and the Frontier Justice
+    Updated sounds for the Brass Beast and the Awper Hand
+    Steam controller improvements
+        When using Steam controller configuration to configure non-Steam Controller devices (e.g. Xbox controllers), the proper button icons are now displayed in the UI
+        Improved controller icon placement in some UI screens, including for players using less-common aspect ratio displays
+        Where text rather than an icon is used to indicate a controller binding, the text strings are now correct for non-Steam controller devices, and slightly more verbose in some cases to avoid confusion with regular keyboard bindings (e.g. "Press [B button]" vs. "Press [B]")
+        Fixed miscellaneous corner-case bugs where the wrong action set could be selected, and some edge cases with handling of multiple simultaneous actions during an action-set change
+        Added new action bindings for the most popular voice-line commands. The default controller template now binds "Call Medic!" to the directional pad. The following voice lines are also available, but are not bound by default: "Go! Go! Go!", "Move up!", "Spy!", "Ubercharge ready!", "Help!"
+    Community request - Added tf_playrounds/tf_listrounds debug commands to jump between mini-rounds on multi-stage maps
+        May not work on all maps if the map ties custom logic to entities other than the mini-rounds themselves (e.g. arbitrary capture zones (e.g. dustbowl))
+    Applied the match rejoin limitations in Casual to Mann vs. Machine as well
+        Players who leave a Mann vs. Machine match cannot matchmake back into that same game for several minutes
+        Players who are vote-kicked from a Mann vs. Machine match cannot matchmake back into that same game for several hours
+    Added Ready Steady Pan Season 3 tournament medals
+    Added ETF2L Highlander Season 13 and ETF2L 6v6 Season 28 tournament medals
+    Added TFCL Highlander Season 1, Ultiduo Season 4, 6v6 Season 3, 4v4 Season 1, and bball Season 1 tournament medals
+    Added AsiaFortress Cup Season 12 tournament medals
+    Added Insomnia 61 tournament medals
+    Added CappingTV Ultiduo Winter Chalice tournament medals
+    Added RGL.gg Pick/Ban Prolander Participant tournament medal
+    Added ozfortress season 20 tournament medals
+    Added Tip of the Hats 2017 community medals
+    Added Snack's Summery Ultiduo Siesta (season 2) tournament medals
+    Updated the Mappers vs. Machines Participant Medal 2017 medal so it can be painted
+    Updated the Arms Race tournament medals so description tags can be used on them
+    Updated the TFCL Alpha medal to be paintable
+    Updated The Heartfelt Hug to be paintable
+    Updated the localization files 
+
+Parties
+
+    Parties can now be formed from anywhere within the game and persist through matches
+    Players are now able to join their party's match if late joining is allowed
+    Added a new party interface that allows you to quickly manage and interact with your party
+    Added a global party chat system that allows party members to chat with each other from anywhere in the game
+        Party chat is printed in the in-game chat interface when in a game
+        Added ConCommand "say_party" (default bind 'p') that allows for party members in a game to chat with other party members using the in-game chat interface (similar to how "say_team" works for chatting amongst your team) and with members not in a game
+
+Matchmaking
+
+    Redesigned the matchmaking screens to be lightweight overlays that can be summoned and dismissed from anywhere within the game
+    Moved the Casual and Competitive badge panels to the main menu
+    Casual
+        Levels now go beyond 150. All players now have a Tier in addition to their Level. All players start at Tier 1. When your Level goes past 150 your Level resets to 1, your Tier goes up by 1, and your Casual badge will change its appearance to reflect your new status.
+        Players who had reached level 150 will have any experience beyond 45500 (the amount required to hit 150) put into an overflow pool. While playing Casual matches, any XP you earn will be matched and deducted from your overflow pool until it runs out.
+        The "Vote for the next map!" dialog can now be minimized to view the top scoring players
+
+Contracts
+
+    The Contracts Drawer has been replaced with the ConTracker, a state-of-the-art PDA
+    You can now work on contracts at your own pace. It's up to you to decide which ones to work on and in what order to work on them.
+    You can now make progress on Bonus Objectives while working towards completing your Primary Objective
+    Only one Contract can be active at a time
+    Contracts are now unlocked by spending Stars. Stars are earned by completing objectives.
+    Contracts can be turned-in once the Primary Objective is complete
+    Partially completed Contracts can be reactivated, for free, at any time
+    Party members who are on the same server and same team can now help earn progress on each other's Contracts 
+
+Gameplay Changes
+
+    Multi-class
+        Panic Attack
+            This is one of our least-used weapons. The main culprit seems to be the queued/delayed-fire aspect, which fights against the basic concept of the secondary slot on classes that can use this weapon (Soldier, Heavy, Engineer, Pyro); players generally expect a secondary that is immediately ready to fire - for the rare case where their main weapon isn't available (e.g. out of ammo), or isn't the optimal choice (e.g. airborne, too close, etc.). Removing the queued/delayed-fire concept basically invalidates the original design, so we've started over.
+            Goal: Make the weapon immediately usable, remove the large burst potential (generally hard to balance), and give the weapon a unique design space to occupy
+            New design:
+                50% faster switch speed
+                50% more pellets
+                30% less damage
+                Fires a wide, fixed shot pattern (regardless of server settings)
+                Shot pattern grows with successive shots (e.g. while holding down the attack button), but resets after you stop firing or reload
+        Reserve Shooter
+            Pyros are too easily able to take advantage of this weapon's primary feature via airblast (i.e. no-penalty, on-demand launching of their target), and so their damage-potential can greatly exceed that of the other classes that also use this weapon. Rather than take a heavier-handed approach to solve this, we've instead decided to remove airblast as a source for mini-crits.
+                Attacks on targets knocked into the air by Pyro airblast no longer mini-crit
+                Added: Attacks on targets flying via the Thermal Thruster mini-crit
+    Spy
+        Ambassador
+            Players that are head-shot from across the map are expecting to see a Sniper in their death-cam, but they sometimes see (more often that we'd like) a Spy with a revolver
+            Goal: Reduce the effective combat range to something more reasonable and expected with the Spy
+            Changes:
+                Headshot damage is now subjected to distance falloff effects
+                Headshots beyond 1200 world units do normal (non-crit) damage
+        Dead Ringer
+            Feign death is an interesting effect, but a good Spy can use it extremely frequently making it frustrating to play against and reducing the risk of using it nearly constantly
+            Goal: Rather than make it less interesting, let's make it more predictable to fight against by removing methods by which Spies can reduce its cool-down. This should create more of a rhythm to fighting against a Spy using this and introduce a little more risk to player using it.
+            Changes:
+                Ammo kits and dispensers no longer refill the Spy's cloak meter
+        Your Eternal Reward
+            This is the least-used Spy knife (technically, the reskin is, but anyway...). While silent-kill and rapid-disguise-on-kill are good, the downside on this knife is extreme.
+            Changes:
+                Removed: "Cannot disguise" penalty
+                Added: Non-kill disguises require (and consume) a full cloak meter
+                    Backstab-based disguises are still free
+                Increased cloak drain rate by 33%
+    Scout
+        Sandman
+            The feedback on this weapon has been fairly consistent for a while: Players really hate losing the ability to fight back. Compounding this, the ball has to travel really far in order to disarm players. Being hit by a long-range ball (more often than not) ends up feeling random, rather than skilled.
+            Changes:
+                Long-range ball impacts no longer remove the victim's ability to fire their weapon (but the victim is still slowed)
+                    We've updated achievements that were looking for disarmed players
+                Max range balls now do 50% increased damage (from a base of 15)
+                The flight time required to trigger the "max" effect has been reduced by 20%
+                Ball regeneration time reduced to 10 seconds (from 15)
+        Bonk! Atomic Punch
+            This weapon was designed to allow Scouts to pierce hotly-contested areas. While it does this quite well, it doesn't require enough skill, or carry much of a down-side.
+            Changes:
+                Apply a slow effect to the player after phasing wears off, based on the amount of damage they absorbed
+                    From -25% at low damage, to -50% at 200+ damage
+                    Lasts 5 seconds
+        Pretty Boy's Pocket Pistol
+            This weapon is one of the lower owner-equipped items in the game. Looking at the current design, it seems that not taking falling damage ranks pretty low on the value scale for a Scout, and a flat +20% damage taken penalty is basically the kiss-of-death for a low-health class.
+            Goal: Make the weapon less of a liability and focus it as a "get health quick" tool with decent burst, at the expense of total damage
+            New design:
+                +15% firing speed
+                Up to +7 hp per hit (from +5)
+                -25% clip size (9 shots)
+        Crit-A-Cola
+            The last change to this item added Marked-For-Death when the effect ended. This was okay because it forced Scouts to get out after a little while, but it didn't add any risk in-the-moment.
+            Goal: Add more decision/thought on when/where to activate and how to manage the risk/reward of the effect
+            Changes:
+                Added: Each attack while active adds Marked-For-Death debuff for 5 seconds (does not stack)
+                Removed: Marked-For-Death when effect expires
+                Removed: +25% move speed bonus
+                Removed: +10% damage taken penalty
+        The Atomizer
+            Triple-jump as a passive effect is just too strong. It makes combat against the Scout unpredictable because opponents don't see the bat, and therefore have a hard time anticipating the Scout's capabilities until late in an encounter. It also makes the Scout very strong against explosive classes - due to a combination of extreme mobility and high close-range damage.
+            Goal: Require the Scout to deploy the bat to take advantage of the extra jump - which is also is a signal to other players that they can perform an extra jump - and reduce the bat's negatives to compensate
+            Changes:
+                Triple-jump is now only possible while the bat is deployed
+                Removed: Self-inflicted damage when triple-jumping
+                Removed: Attack speed penalty
+                Added: Melee attacks done while airborne mini-crit
+                Added: 50% deploy time penalty (to prevent quick-switch bypass)
+                Reduced damage penalty vs players to -15% (from -20%)
+        Flying Guillotine
+            This weapon is capable of high burst-damage under what sometimes seems like random conditions - such as mini-crits at long-range, and full-crits when the target is slowed or stunned by anything (e.g. Ghost "Boo!" effect, Natascha, etc.)
+            Goal: Remove the feeling of randomness, and reward accuracy
+            Changes:
+                Removed: Crit vs stunned players
+                Removed: Mini-crits at long range
+                Added: Long range hits reduce recharge (by 1.5 seconds)
+                    Distance considered "long range" reduced by half of the previous value when determining mini-crits
+    Soldier
+        B.A.S.E Jumper
+            Players often complain that the B.A.S.E. Jumper is frustrating to fight against because the target is simply too hard to hit. This is mostly due to the combination of being able to deploy/retract at will, and the amount of steering control they have - which makes them too unpredictable.
+            Changes:
+                Reduced amount of air control while deployed by 50%
+                Removed the ability to re-deploy the parachute once retracted (until the player lands on the ground again)
+        Mantreads
+            The second least-used item in the game. The aerial stomp mini-game is difficult, and The Gunboats are superior in most scenarios.
+            Changes:
+                +75% push-force reduction now includes airblast
+                Added: +200% air control when blast jumping
+        Cow Mangler 5000
+            Removed: Cannot be Crit boosted
+                Granted/earned Crits (e.g. Kritzkrieg) will be converted to Mini-Crits instead
+        Righteous Bison
+            Note: This weapon has been reverted to its previous design
+            Deals 20 damage per tick (down from 45)
+                Note: This is necessary because the projectile is no longer limited on the number of times it can hit targets
+            Projectiles are no longer limited on the number of times they can hit the same target(s)
+            Projectile velocity increased to 1200 (from 840)
+    Sniper
+        Darwin's Danger Shield
+            Snipers using this item had an advantage against Snipers who weren't. As a result, players felt like they were required to equip this item in order to be competitive.
+            Goal: Remove the increased survivability against enemy Snipers (which invalidates the existing design).
+            New design:
+                Counter ranged burn attacks (e.g. flares), and strengthen melee fights vs Pyros
+                    Afterburn immunity
+                    +50% fire resist
+        Razorback
+            Goal: Reduce the effectiveness of "pocket'd" Snipers in stalemates/standoffs (this primarily happens in organized/competitive play)
+            Changes:
+                Added: -100% overheal penalty
+                Added: Shield regenerates after 30 seconds
+    Medic
+        Vita-Saw
+            Ubercharge on death is too valuable of an effect to be passive
+            Goal: Change the weapon in a way that requires skill and risk in order to gain this effect
+            Changes:
+                Added "Organs" collecting concept (... you know, hit someone with a saw, and out pops a vital organ which you then take, and hold). Each hit with the Vita-Saw harvests the victim's organs (shown on the HUD).
+                Added: On-death, preserve 15% ubercharge per Organ harvested. This effect caps at 60%.
+        Crusader's Crossbow
+            Bolt healing is very high and significantly out-heals the Medigun when the target is in combat. This might be okay given the trade-offs (risk-vs-reward of ranged shots hitting and the opportunity cost, no overheal). However, it's also the fastest way to build Ubercharge - under the right conditions (e.g. corner damage farming with the Medic behind cover).
+            Changes:
+                Ubercharge gain rate reduced in the same way that the Medigun's healing (and therefore, Ubercharge build rate) is - based on the last time the target was in combat
+                    Reduced by a third when 1 - 10 seconds outside of combat, and scales up to normal over 10 - 15 seconds
+    Heavy
+        All Miniguns
+            Changes:
+                The 1-second damage and accuracy penalty now applies to the first second of spun-up time, whether or not the Heavy is firing. Previously, the 1-second damage penalty would only be removed after 1 second of firing.
+                Accuracy and damage penalties now reset when the Heavy spins down, rather than when the Heavy stops firing. This means if you stay spun-up beyond one second, and fire in bursts, damage and accuracy will remain at 100%.
+        Gloves of Running Urgently
+            Speed (lack-of) is used to balance the Heavy's high health, over-heal and damage output. While we still believe it's OK to have a class of items that increases Heavy's movement speed, players have been able to easily bypass the existing negatives.
+            Changes:
+                Added: Max-health is drained while item is active (-10/sec), and regenerated while holstered
+                    Health will regenerate only the amount drained while active - minus any damage taken during that time
+                    Each time the gloves are deployed, the drain rate is accelerated for a brief period of time
+                Removed: Marked-For-Death effect while active
+                Removed: 25% damage penalty
+        Eviction Notice
+            Changes:
+                Added: Max-health is drained while item is active (-5/sec), and regenerated while holstered. Health will regenerate only the amount drained while active - minus any damage taken during that time.
+                Removed: 20% damage vulnerability
+        Fist of Steel
+            The downside of "increased melee damage" doesn't ever really come into play when it counts (e.g. holding a choke point or objective), and when a Medic is attached, the resulting pool of effective-health is unreasonably large
+            Changes:
+                Added: 40% overheal reduction while active
+                Added: 40% healing rate penalty while active
+        Added The Second Banana
+            Secondary slot item
+            When consumed by the Heavy, restores 200 health
+            Acts like a small health kit when dropped by the Heavy and picked up by another player
+            Item regenerates after 10 seconds
+    Engineer
+        Doubled the amount of metal applied (per wrench hit) when upgrading buildings during the "Setup" period.
+        Rescue Ranger
+            The ability to repair buildings safely from range without using metal is powerful. Combine this with the ability to instantly teleport buildings from far away - which by itself is interesting and useful enough in many circumstances - and you end up with a package that is very strong.
+            Changes:
+                Ranged repairs now consume metal (at a 4-to-1 health-to-metal ratio, e.g. repairing 60 damage costs 15 metal)
+    Demo
+        Claidheamh Mòr
+            Note: This weapon has been reverted to its previous design.
+            Removed: +25 health on kill
+            Added: 0.5 second increase in charge duration
+    Pyro
+        Added The Dragon's Fury
+            Primary slot item
+            Uses a shared pressure tank for Primary Fire and Alt-Fire
+            Primary Fire: Launches a fast-moving, limited-range projectile that deals 25 damage and briefly ignites enemies
+                Deals +300% damage to burning players
+                +50% repressurization rate on hit
+            Alt-Fire: Airblast
+                -50% repressurization rate on Alt-Fire
+        Added The Thermal Thruster
+            Secondary slot item
+            Fires a short-duration blast that launches the Pyro in the direction they are aiming
+            Deals 3x falling damage to anyone you land on
+            Has a 1.1 second holster duration
+            MvM upgrades:
+                Able to re-launch while airborne
+                Stun enemies when you land (duration based on impact velocity)
+                    Note: Landing directly on an enemy grants a bonus to stun duration
+                Faster recharge rate
+        Added The Gas Passer
+            Secondary slot item
+            Creates a horrific visible gas cloud that coats enemies
+            Flammable material then ignites into 10 seconds of Afterburn if enemies take damage (even Pyros!)
+            Mann vs. Machine upgrades:
+                Enemies explode when ignited by attacks
+                Faster recharge rate
+        Added The Hot Hand
+            Gain a speed-boost when you hit an enemy player
+            -20% damage penalty
+            Every successful slap is announced in the kill-feed
+        Flamethrowers
+            Better visual sync, more consistent (no visuals/damage mismatch)
+            New particle effects
+            Applies to all flamethrower variants
+        Airblast
+            Hit detection for both players and projectiles is now a consistent cone
+                Aiming at a player's feet no longer misses!
+            Airblasting players now factors in the momentum of the Pyro and target, giving both more control over the interaction
+                The target's existing velocity is no longer cancelled
+                Players moving at the Pyro at great speed will be reflected away at great speed
+                Players moving towards/away from the Pyro will experience less/more push force
+            Airblast now causes target player to have reduced footing and air control for a short period
+                No longer a flat stun
+            Now factors in the upward angle of the airblast, rather than having a fixed upward force
+            Total push force slightly increased
+        Afterburn
+            Flamethrowers no longer apply maximum-duration afterburn on contact. Afterburn duration is now based on how long the target is in contact with direct flames -- starting at a minimum of 3 seconds, and stacking to a maximum of 10 seconds.
+            Per-tick afterburn damage increased to 4 (from 3), for a total of 8 damage per-second (up from 6 per-second)
+            Flareguns now apply 7.5 seconds of afterburn (down from 10 seconds), resulting in the same total damage as before
+            Afterburn now reduces all direct Medic healing and resist shields by 20%
+                Note: This effect was previously applied by direct flames from all flamethrowers (at 25%), but was moved to afterburn, and slightly lowered
